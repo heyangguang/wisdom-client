@@ -1,0 +1,534 @@
+{"level":"INFO","time":"2020-05-22T07:43:00.404+0800","caller":"collector/core.go:40","msg":"connect error, err: dial tcp 0.0.0.1:2: connect: no route to host"}
+{"level":"INFO","time":"2020-05-22T07:43:00.405+0800","caller":"collector/core.go:40","msg":"connect error, err: dial tcp 0.0.0.1:2: connect: no route to host"}
+{"level":"INFO","time":"2020-05-22T07:43:10.407+0800","caller":"collector/core.go:40","msg":"connect error, err: dial tcp 0.0.0.1:2: connect: no route to host"}
+{"level":"INFO","time":"2020-05-22T07:43:10.407+0800","caller":"collector/core.go:40","msg":"connect error, err: dial tcp 0.0.0.1:2: connect: no route to host"}
+{"level":"INFO","time":"2020-05-22T07:45:06.456+0800","caller":"collector/core.go:43","msg":"connect success"}
+{"level":"INFO","time":"2020-05-22T07:45:09.456+0800","caller":"collector/core.go:40","msg":"connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T07:45:16.461+0800","caller":"collector/core.go:43","msg":"connect success"}
+{"level":"INFO","time":"2020-05-22T07:45:22.464+0800","caller":"collector/core.go:40","msg":"connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T07:45:26.464+0800","caller":"collector/core.go:43","msg":"connect success"}
+{"level":"INFO","time":"2020-05-22T07:45:35.466+0800","caller":"collector/core.go:40","msg":"connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T07:45:36.469+0800","caller":"collector/core.go:43","msg":"connect success"}
+{"level":"INFO","time":"2020-05-22T07:48:03.806+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:48:06.807+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T07:48:13.811+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:48:19.814+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T07:48:23.815+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:48:32.820+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T07:48:33.818+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:48:43.824+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:48:45.828+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T07:48:53.825+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:48:58.832+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T07:49:03.829+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:49:11.839+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T07:49:13.831+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:49:23.836+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:49:24.840+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T07:49:33.851+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:49:37.841+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T07:49:43.857+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:49:50.848+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T07:49:53.859+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:50:03.853+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T07:50:03.861+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:50:13.866+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:50:16.859+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T07:50:23.870+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:50:29.864+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T07:50:33.876+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:50:42.871+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T07:50:43.882+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:50:53.887+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:50:55.879+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T07:51:03.898+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:51:08.888+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T07:51:13.903+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:51:21.894+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T07:51:23.910+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:51:33.913+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:51:34.902+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T07:51:43.914+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:51:47.908+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T07:51:53.917+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:52:00.910+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T07:52:03.919+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:52:13.915+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T07:52:13.921+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:52:23.923+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:52:26.920+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T07:52:33.925+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:52:39.926+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T07:52:43.926+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:52:52.932+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T07:52:53.929+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:53:03.932+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:53:05.940+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T07:53:13.935+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:53:18.948+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T07:53:23.947+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:53:31.956+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T07:53:33.957+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:53:43.965+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:53:44.964+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T07:53:53.973+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:53:57.978+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T07:54:03.983+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:54:10.997+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T07:54:13.997+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:54:24.007+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:54:24.011+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T07:54:34.015+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:54:37.026+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T07:54:44.024+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:54:50.039+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T07:54:54.035+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:55:03.050+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T07:55:04.048+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:55:14.058+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:55:16.064+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T07:55:24.067+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:55:29.076+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T07:55:34.069+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:55:42.090+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T07:55:44.079+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:55:54.099+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:55:55.107+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T07:56:04.108+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:56:08.120+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T07:56:14.116+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:56:21.137+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T07:56:24.126+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:56:34.135+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:56:34.157+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T07:56:44.148+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:56:47.171+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T07:56:54.159+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:57:00.180+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T07:57:04.164+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:57:13.197+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T07:57:14.169+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:57:24.179+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:57:26.215+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T07:57:34.196+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:57:39.234+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T07:57:44.207+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:57:52.248+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T07:57:54.214+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:58:04.221+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:58:05.264+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T07:58:14.223+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:58:18.281+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T07:58:24.231+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:58:31.296+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T07:58:34.246+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:58:44.256+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:58:44.308+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T07:58:54.266+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:58:57.314+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T07:59:04.277+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:59:10.331+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T07:59:14.295+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:59:23.348+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T07:59:24.305+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:59:34.316+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:59:36.363+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T07:59:44.325+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T07:59:49.374+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T07:59:54.326+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:00:02.385+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:00:04.346+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:00:14.356+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:00:15.396+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:00:24.362+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:00:28.415+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:00:34.369+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:00:41.431+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:00:44.379+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:00:54.395+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:00:54.447+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:01:04.405+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:01:07.466+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:01:14.414+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:01:20.476+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:01:24.417+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:01:33.487+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:01:34.422+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:01:44.426+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:01:46.507+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:01:54.436+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:01:59.523+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:02:04.447+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:02:12.537+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:02:14.458+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:02:24.469+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:02:25.556+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:02:34.480+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:02:38.565+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:02:44.498+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:02:51.577+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:02:54.510+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:03:04.516+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:03:04.595+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:03:14.527+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:03:17.606+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:03:24.546+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:03:30.624+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:03:34.556+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:03:43.636+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:03:44.564+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:03:54.576+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:03:56.655+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:04:04.582+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:04:09.667+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:04:14.596+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:04:22.686+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:04:24.607+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:04:34.616+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:04:35.701+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:04:44.624+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:04:48.717+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:04:54.632+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:05:01.735+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:05:04.644+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:05:14.651+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:05:14.755+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:05:24.658+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:05:27.760+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:05:34.668+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:05:40.768+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:05:44.674+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:05:53.774+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:05:54.676+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:06:04.684+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:06:06.791+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:06:14.696+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:06:19.809+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:06:24.706+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:06:32.823+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:06:34.714+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:06:44.721+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:06:45.833+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:06:54.732+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:06:58.845+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:07:04.748+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:07:11.862+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:07:14.758+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:07:24.771+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:07:24.867+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:07:34.798+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:07:37.876+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:07:44.814+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:07:50.886+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:07:54.816+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:08:03.906+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:08:04.817+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:08:14.824+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:08:16.920+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:08:24.830+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:08:29.921+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:08:34.846+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:08:42.936+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:08:44.856+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:08:54.860+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:08:55.955+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:09:04.871+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:09:08.971+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:09:14.881+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:09:21.986+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:09:24.896+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:09:34.906+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:09:35.005+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:09:44.907+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:09:48.018+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:09:54.918+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:10:01.035+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:10:04.924+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:10:14.055+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:10:14.934+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:10:24.944+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:10:27.065+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:10:34.956+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:10:40.073+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:10:44.957+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:10:53.086+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:10:54.964+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:11:04.976+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:11:06.099+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:11:14.986+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:11:19.105+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:11:24.994+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:11:32.114+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:11:35.005+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:11:45.010+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:11:45.129+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:11:55.016+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:11:58.147+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:12:05.026+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:12:11.164+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:12:15.044+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:12:24.175+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:12:25.054+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:12:35.058+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:12:37.195+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:12:45.068+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:12:50.212+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:12:55.074+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:13:03.223+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:13:05.080+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:13:15.096+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:13:16.236+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:13:25.106+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:13:29.255+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:13:35.114+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:13:42.267+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:13:45.124+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:13:55.132+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:13:55.286+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:14:05.146+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:14:08.305+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:14:15.162+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:14:21.317+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:14:25.170+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:14:34.334+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:14:35.183+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:58:57.372+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:59:00.374+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:59:00.374+0800","caller":"collector/core.go:40","msg":"&{192.168.31.2 9200 warm-1 false} connect error, err: dial tcp 192.168.31.2:9200: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:59:07.378+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:59:13.377+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:59:13.377+0800","caller":"collector/core.go:40","msg":"&{192.168.31.2 9200 warm-1 false} connect error, err: dial tcp 192.168.31.2:9200: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:59:17.402+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:59:26.386+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:59:26.386+0800","caller":"collector/core.go:40","msg":"&{192.168.31.2 9200 warm-1 false} connect error, err: dial tcp 192.168.31.2:9200: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:59:27.404+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:59:37.409+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T08:59:39.391+0800","caller":"collector/core.go:40","msg":"&{192.168.31.2 9200 warm-1 false} connect error, err: dial tcp 192.168.31.2:9200: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:59:39.391+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T08:59:47.413+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T09:02:40.352+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T09:02:43.333+0800","caller":"collector/core.go:40","msg":"&{192.168.31.2 9200 warm-1 false} connect error, err: dial tcp 192.168.31.2:9200: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T09:02:43.333+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T09:02:50.358+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T09:02:56.337+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T09:02:56.337+0800","caller":"collector/core.go:40","msg":"&{192.168.31.2 9200 warm-1 false} connect error, err: dial tcp 192.168.31.2:9200: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T09:03:00.360+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T09:03:09.341+0800","caller":"collector/core.go:40","msg":"&{192.168.31.2 9200 warm-1 false} connect error, err: dial tcp 192.168.31.2:9200: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T09:03:09.341+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T09:03:10.362+0800","caller":"collector/core.go:43","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T09:06:30.094+0800","caller":"collector/core.go:44","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T09:06:33.089+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T09:06:33.089+0800","caller":"collector/core.go:40","msg":"&{192.168.31.2 9200 warm-1 false} connect error, err: dial tcp 192.168.31.2:9200: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T09:06:40.100+0800","caller":"collector/core.go:44","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T09:06:46.096+0800","caller":"collector/core.go:40","msg":"&{192.168.31.2 9200 warm-1 false} connect error, err: dial tcp 192.168.31.2:9200: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T09:06:46.096+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T09:07:26.755+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T09:07:26.755+0800","caller":"collector/core.go:44","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T09:07:26.755+0800","caller":"collector/core.go:40","msg":"&{192.168.31.2 9200 warm-1 false} connect error, err: dial tcp 192.168.31.2:9200: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T09:07:39.763+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T09:07:39.763+0800","caller":"collector/core.go:40","msg":"&{192.168.31.2 9200 warm-1 false} connect error, err: dial tcp 192.168.31.2:9200: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T09:07:39.764+0800","caller":"collector/core.go:44","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T09:07:52.765+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T09:07:52.765+0800","caller":"collector/core.go:40","msg":"&{192.168.31.2 9200 warm-1 false} connect error, err: dial tcp 192.168.31.2:9200: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T09:07:52.766+0800","caller":"collector/core.go:44","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T09:08:05.770+0800","caller":"collector/core.go:44","msg":"&{127.0.0.1 3306 mysql-test true} connect success"}
+{"level":"INFO","time":"2020-05-22T09:08:05.770+0800","caller":"collector/core.go:40","msg":"&{192.168.31.2 9200 warm-1 false} connect error, err: dial tcp 192.168.31.2:9200: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T09:08:05.771+0800","caller":"collector/core.go:40","msg":"&{127.0.0.2 3306 mysql-test false} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T09:14:25.701+0800","caller":"collector/core.go:48","msg":"&{127.0.0.1 3306 mysql-test true 2020-05-22 09:14:25} connect success"}
+{"level":"INFO","time":"2020-05-22T09:14:28.687+0800","caller":"collector/core.go:43","msg":"&{192.168.31.2 9200 warm-1 false 2020-05-22 09:14:28} connect error, err: dial tcp 192.168.31.2:9200: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T09:14:28.687+0800","caller":"collector/core.go:43","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 09:14:28} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T09:14:35.707+0800","caller":"collector/core.go:48","msg":"&{127.0.0.1 3306 mysql-test true 2020-05-22 09:14:35} connect success"}
+{"level":"INFO","time":"2020-05-22T09:14:41.692+0800","caller":"collector/core.go:43","msg":"&{192.168.31.2 9200 warm-1 false 2020-05-22 09:14:41} connect error, err: dial tcp 192.168.31.2:9200: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T09:14:41.692+0800","caller":"collector/core.go:43","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 09:14:41} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T09:14:45.711+0800","caller":"collector/core.go:48","msg":"&{127.0.0.1 3306 mysql-test true 2020-05-22 09:14:45} connect success"}
+{"level":"INFO","time":"2020-05-22T09:14:54.700+0800","caller":"collector/core.go:43","msg":"&{192.168.31.2 9200 warm-1 false 2020-05-22 09:14:54} connect error, err: dial tcp 192.168.31.2:9200: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T09:14:54.700+0800","caller":"collector/core.go:43","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 09:14:54} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T09:14:55.714+0800","caller":"collector/core.go:48","msg":"&{127.0.0.1 3306 mysql-test true 2020-05-22 09:14:55} connect success"}
+{"level":"INFO","time":"2020-05-22T09:15:05.718+0800","caller":"collector/core.go:48","msg":"&{127.0.0.1 3306 mysql-test true 2020-05-22 09:15:05} connect success"}
+{"level":"INFO","time":"2020-05-22T09:15:07.703+0800","caller":"collector/core.go:43","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 09:15:07} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T09:15:07.703+0800","caller":"collector/core.go:43","msg":"&{192.168.31.2 9200 warm-1 false 2020-05-22 09:15:07} connect error, err: dial tcp 192.168.31.2:9200: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T09:15:15.723+0800","caller":"collector/core.go:48","msg":"&{127.0.0.1 3306 mysql-test true 2020-05-22 09:15:15} connect success"}
+{"level":"INFO","time":"2020-05-22T09:15:20.708+0800","caller":"collector/core.go:43","msg":"&{192.168.31.2 9200 warm-1 false 2020-05-22 09:15:20} connect error, err: dial tcp 192.168.31.2:9200: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T09:15:20.708+0800","caller":"collector/core.go:43","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 09:15:20} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T09:19:07.230+0800","caller":"collector/core.go:52","msg":"&{127.0.0.1 3306 mysql-test true 2020-05-22 09:19:07 MySQL} connect success"}
+{"level":"INFO","time":"2020-05-22T09:19:10.234+0800","caller":"collector/core.go:46","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 09:19:10 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T09:19:10.234+0800","caller":"collector/core.go:46","msg":"&{192.168.31.2 9200 warm-1 false 2020-05-22 09:19:10 ElasticSearch} connect error, err: dial tcp 192.168.31.2:9200: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T09:19:17.251+0800","caller":"collector/core.go:52","msg":"&{127.0.0.1 3306 mysql-test true 2020-05-22 09:19:17 MySQL} connect success"}
+{"level":"INFO","time":"2020-05-22T09:19:23.242+0800","caller":"collector/core.go:46","msg":"&{192.168.31.2 9200 warm-1 false 2020-05-22 09:19:23 ElasticSearch} connect error, err: dial tcp 192.168.31.2:9200: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T09:19:23.242+0800","caller":"collector/core.go:46","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 09:19:23 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T09:44:21.754+0800","caller":"collector/core.go:52","msg":"&{127.0.0.1 3306 mysql-test true 2020-05-22 09:44:21.754586 +0800 CST m=+0.019412263 MySQL} connect success"}
+{"level":"INFO","time":"2020-05-22T09:44:24.742+0800","caller":"collector/core.go:46","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 09:44:24.742153 +0800 CST m=+3.006981212 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T09:44:24.742+0800","caller":"collector/core.go:46","msg":"&{192.168.31.2 9200 warm-1 false 2020-05-22 09:44:24.742235 +0800 CST m=+3.007063379 ElasticSearch} connect error, err: dial tcp 192.168.31.2:9200: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T09:44:31.760+0800","caller":"collector/core.go:52","msg":"&{127.0.0.1 3306 mysql-test true 2020-05-22 09:44:31.760514 +0800 CST m=+10.025347182 MySQL} connect success"}
+{"level":"INFO","time":"2020-05-22T09:44:37.746+0800","caller":"collector/core.go:46","msg":"&{192.168.31.2 9200 warm-1 false 2020-05-22 09:44:37.746217 +0800 CST m=+16.011054632 ElasticSearch} connect error, err: dial tcp 192.168.31.2:9200: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T09:44:37.746+0800","caller":"collector/core.go:46","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 09:44:37.746217 +0800 CST m=+16.011054684 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T09:44:41.766+0800","caller":"collector/core.go:52","msg":"&{127.0.0.1 3306 mysql-test true 2020-05-22 09:44:41.766332 +0800 CST m=+20.031172661 MySQL} connect success"}
+{"level":"ERROR","time":"2020-05-22T10:30:41.719+0800","caller":"collector/core.go:58","msg":"request http error, err: Post http://127.0.0.1:8080/api/v1/monitor: dial tcp 127.0.0.1:8080: connect: connection refused"}
+{"level":"ERROR","time":"2020-05-22T10:30:44.715+0800","caller":"collector/core.go:48","msg":"request http error, err: Post http://127.0.0.1:8080/api/v1/monitor: dial tcp 127.0.0.1:8080: connect: connection refused"}
+{"level":"ERROR","time":"2020-05-22T10:30:44.716+0800","caller":"collector/core.go:48","msg":"request http error, err: Post http://127.0.0.1:8080/api/v1/monitor: dial tcp 127.0.0.1:8080: connect: connection refused"}
+{"level":"INFO","time":"2020-05-22T10:31:06.767+0800","caller":"collector/core.go:60","msg":"&{127.0.0.1 3306 mysql-test true 2020-05-22 10:31:06.631335 +0800 CST m=+0.052167355 MySQL} connect success"}
+{"level":"INFO","time":"2020-05-22T10:33:31.282+0800","caller":"collector/core.go:60","msg":"{127.0.0.1 3306 mysql-test true 2020-05-22 10:33:31.257132 +0800 CST m=+0.004105225 MySQL} connect success"}
+{"level":"INFO","time":"2020-05-22T10:34:32.112+0800","caller":"collector/core.go:56","msg":"&{127.0.0.1 3306 mysql-test true 2020-05-22 10:34:32.112575 +0800 CST m=+0.005685394 MySQL} connect success"}
+{"level":"INFO","time":"2020-05-22T10:34:35.113+0800","caller":"collector/core.go:47","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 10:34:35.11344 +0800 CST m=+3.006553923 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T10:34:35.113+0800","caller":"collector/core.go:47","msg":"&{192.168.31.2 9200 warm-1 false 2020-05-22 10:34:35.113446 +0800 CST m=+3.006560245 ElasticSearch} connect error, err: dial tcp 192.168.31.2:9200: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T10:34:42.155+0800","caller":"collector/core.go:56","msg":"&{127.0.0.1 3306 mysql-test true 2020-05-22 10:34:42.155704 +0800 CST m=+10.048825484 MySQL} connect success"}
+{"level":"INFO","time":"2020-05-22T10:34:48.138+0800","caller":"collector/core.go:47","msg":"&{192.168.31.2 9200 warm-1 false 2020-05-22 10:34:48.138728 +0800 CST m=+16.031855776 ElasticSearch} connect error, err: dial tcp 192.168.31.2:9200: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T10:34:48.138+0800","caller":"collector/core.go:47","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 10:34:48.138743 +0800 CST m=+16.031871293 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T10:34:52.172+0800","caller":"collector/core.go:56","msg":"&{127.0.0.1 3306 mysql-test true 2020-05-22 10:34:52.171992 +0800 CST m=+20.065124187 MySQL} connect success"}
+{"level":"INFO","time":"2020-05-22T10:35:01.184+0800","caller":"collector/core.go:47","msg":"&{192.168.31.2 9200 warm-1 false 2020-05-22 10:35:01.184487 +0800 CST m=+29.077628800 ElasticSearch} connect error, err: dial tcp 192.168.31.2:9200: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T10:35:01.184+0800","caller":"collector/core.go:47","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 10:35:01.184486 +0800 CST m=+29.077628341 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T10:35:02.205+0800","caller":"collector/core.go:56","msg":"&{127.0.0.1 3306 mysql-test true 2020-05-22 10:35:02.205698 +0800 CST m=+30.098840979 MySQL} connect success"}
+{"level":"INFO","time":"2020-05-22T10:35:12.221+0800","caller":"collector/core.go:56","msg":"&{127.0.0.1 3306 mysql-test true 2020-05-22 10:35:12.221698 +0800 CST m=+40.114852719 MySQL} connect success"}
+{"level":"INFO","time":"2020-05-22T10:35:14.232+0800","caller":"collector/core.go:47","msg":"&{192.168.31.2 9200 warm-1 false 2020-05-22 10:35:14.232524 +0800 CST m=+42.125680015 ElasticSearch} connect error, err: dial tcp 192.168.31.2:9200: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T10:35:14.232+0800","caller":"collector/core.go:47","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 10:35:14.232521 +0800 CST m=+42.125677040 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T10:35:22.253+0800","caller":"collector/core.go:56","msg":"&{127.0.0.1 3306 mysql-test true 2020-05-22 10:35:22.253889 +0800 CST m=+50.147054178 MySQL} connect success"}
+{"level":"INFO","time":"2020-05-22T10:35:27.275+0800","caller":"collector/core.go:47","msg":"&{192.168.31.2 9200 warm-1 false 2020-05-22 10:35:27.275484 +0800 CST m=+55.168655101 ElasticSearch} connect error, err: dial tcp 192.168.31.2:9200: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T10:35:27.275+0800","caller":"collector/core.go:47","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 10:35:27.275483 +0800 CST m=+55.168654091 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T10:36:14.851+0800","caller":"collector/core.go:56","msg":"&{127.0.0.1 3306 mysql-test true 2020-05-22 10:36:14.850181 +0800 CST m=+0.012978089 MySQL} connect success"}
+{"level":"ERROR","time":"2020-05-22T10:36:14.855+0800","caller":"collector/core.go:58","msg":"request http error, err: Post http://127.0.0.1:8080/api/v1/monitor: dial tcp 127.0.0.1:8080: connect: connection refused"}
+{"level":"INFO","time":"2020-05-22T10:36:17.849+0800","caller":"collector/core.go:47","msg":"&{192.168.31.2 9200 warm-1 false 2020-05-22 10:36:17.849648 +0800 CST m=+3.012448339 ElasticSearch} connect error, err: dial tcp 192.168.31.2:9200: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T10:36:17.849+0800","caller":"collector/core.go:47","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 10:36:17.849629 +0800 CST m=+3.012429618 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"ERROR","time":"2020-05-22T10:36:17.850+0800","caller":"collector/core.go:49","msg":"request http error, err: Post http://127.0.0.1:8080/api/v1/monitor: dial tcp 127.0.0.1:8080: connect: connection refused"}
+{"level":"ERROR","time":"2020-05-22T10:36:17.851+0800","caller":"collector/core.go:49","msg":"request http error, err: Post http://127.0.0.1:8080/api/v1/monitor: dial tcp 127.0.0.1:8080: connect: connection refused"}
+{"level":"INFO","time":"2020-05-22T10:36:24.860+0800","caller":"collector/core.go:56","msg":"&{127.0.0.1 3306 mysql-test true 2020-05-22 10:36:24.860713 +0800 CST m=+10.023521129 MySQL} connect success"}
+{"level":"ERROR","time":"2020-05-22T10:36:24.861+0800","caller":"collector/core.go:58","msg":"request http error, err: Post http://127.0.0.1:8080/api/v1/monitor: dial tcp 127.0.0.1:8080: connect: connection refused"}
+{"level":"ERROR","time":"2020-05-22T10:36:58.556+0800","caller":"collector/core.go:58","msg":"request http error, err: Post http://127.0.0.1:8080/api/v1/monitor: dial tcp 127.0.0.1:8080: connect: connection refused"}
+{"level":"ERROR","time":"2020-05-22T10:37:01.550+0800","caller":"collector/core.go:48","msg":"request http error, err: Post http://127.0.0.1:8080/api/v1/monitor: dial tcp 127.0.0.1:8080: connect: connection refused"}
+{"level":"ERROR","time":"2020-05-22T10:37:01.550+0800","caller":"collector/core.go:48","msg":"request http error, err: Post http://127.0.0.1:8080/api/v1/monitor: dial tcp 127.0.0.1:8080: connect: connection refused"}
+{"level":"ERROR","time":"2020-05-22T10:37:08.561+0800","caller":"collector/core.go:58","msg":"request http error, err: Post http://127.0.0.1:8080/api/v1/monitor: dial tcp 127.0.0.1:8080: connect: connection refused"}
+{"level":"ERROR","time":"2020-05-22T10:37:14.557+0800","caller":"collector/core.go:48","msg":"request http error, err: Post http://127.0.0.1:8080/api/v1/monitor: dial tcp 127.0.0.1:8080: connect: connection refused"}
+{"level":"ERROR","time":"2020-05-22T10:37:14.557+0800","caller":"collector/core.go:48","msg":"request http error, err: Post http://127.0.0.1:8080/api/v1/monitor: dial tcp 127.0.0.1:8080: connect: connection refused"}
+{"level":"INFO","time":"2020-05-22T11:18:51.881+0800","caller":"collector/core.go:61","msg":"&{127.0.0.1 3306 mysql-test true 2020-05-22 11:18:51.859341 +0800 CST m=+0.026500971 MySQL} connect success"}
+{"level":"INFO","time":"2020-05-22T11:18:54.877+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 11:18:54.84484 +0800 CST m=+3.012002364 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T11:18:54.886+0800","caller":"collector/core.go:51","msg":"&{192.168.31.2 9200 warm-1 false 2020-05-22 11:18:54.844847 +0800 CST m=+3.012008992 ElasticSearch} connect error, err: dial tcp 192.168.31.2:9200: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T11:19:01.927+0800","caller":"collector/core.go:61","msg":"&{127.0.0.1 3306 mysql-test true 2020-05-22 11:19:01.911233 +0800 CST m=+10.078400750 MySQL} connect success"}
+{"level":"INFO","time":"2020-05-22T11:19:07.931+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 11:19:07.886817 +0800 CST m=+16.053988476 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T11:19:07.933+0800","caller":"collector/core.go:51","msg":"&{192.168.31.2 9200 warm-1 false 2020-05-22 11:19:07.887513 +0800 CST m=+16.054684459 ElasticSearch} connect error, err: dial tcp 192.168.31.2:9200: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T11:19:11.976+0800","caller":"collector/core.go:61","msg":"&{127.0.0.1 3306 mysql-test true 2020-05-22 11:19:11.960926 +0800 CST m=+20.128100764 MySQL} connect success"}
+{"level":"INFO","time":"2020-05-22T11:19:20.986+0800","caller":"collector/core.go:51","msg":"&{192.168.31.2 9200 warm-1 false 2020-05-22 11:19:20.938116 +0800 CST m=+29.105297442 ElasticSearch} connect error, err: dial tcp 192.168.31.2:9200: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T11:19:20.994+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 11:19:20.938422 +0800 CST m=+29.105602902 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T11:19:22.027+0800","caller":"collector/core.go:61","msg":"&{127.0.0.1 3306 mysql-test true 2020-05-22 11:19:22.01125 +0800 CST m=+30.178431578 MySQL} connect success"}
+{"level":"ERROR","time":"2020-05-22T11:19:41.665+0800","caller":"collector/core.go:58","msg":"request http error, err: Post http://127.0.0.1:8080/api/v1/monitor: dial tcp 127.0.0.1:8080: connect: connection refused"}
+{"level":"ERROR","time":"2020-05-22T11:19:44.660+0800","caller":"collector/core.go:48","msg":"request http error, err: Post http://127.0.0.1:8080/api/v1/monitor: dial tcp 127.0.0.1:8080: connect: connection refused"}
+{"level":"ERROR","time":"2020-05-22T11:19:44.661+0800","caller":"collector/core.go:48","msg":"request http error, err: Post http://127.0.0.1:8080/api/v1/monitor: dial tcp 127.0.0.1:8080: connect: connection refused"}
+{"level":"INFO","time":"2020-05-22T12:08:46.117+0800","caller":"collector/core.go:61","msg":"&{127.0.0.1 3306 mysql-test true 2020-05-22 12:08:46.10371 +0800 CST m=+0.017877919 MySQL} connect success"}
+{"level":"INFO","time":"2020-05-22T12:08:49.117+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:08:49.098214 +0800 CST m=+3.012384519 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:08:49.124+0800","caller":"collector/core.go:51","msg":"&{192.168.31.2 9200 warm-1 false 2020-05-22 12:08:49.098237 +0800 CST m=+3.012406856 ElasticSearch} connect error, err: dial tcp 192.168.31.2:9200: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:08:56.141+0800","caller":"collector/core.go:61","msg":"&{127.0.0.1 3306 mysql-test true 2020-05-22 12:08:56.121204 +0800 CST m=+10.035379697 MySQL} connect success"}
+{"level":"INFO","time":"2020-05-22T12:09:02.170+0800","caller":"collector/core.go:51","msg":"&{192.168.31.2 9200 warm-1 false 2020-05-22 12:09:02.130598 +0800 CST m=+16.044779599 ElasticSearch} connect error, err: dial tcp 192.168.31.2:9200: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:09:02.170+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:09:02.125049 +0800 CST m=+16.039230038 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:09:06.169+0800","caller":"collector/core.go:61","msg":"&{127.0.0.1 3306 mysql-test true 2020-05-22 12:09:06.155267 +0800 CST m=+20.069451432 MySQL} connect success"}
+{"level":"INFO","time":"2020-05-22T12:09:15.220+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:09:15.179161 +0800 CST m=+29.093353436 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:09:15.225+0800","caller":"collector/core.go:51","msg":"&{192.168.31.2 9200 warm-1 false 2020-05-22 12:09:15.179187 +0800 CST m=+29.093379349 ElasticSearch} connect error, err: dial tcp 192.168.31.2:9200: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:09:16.225+0800","caller":"collector/core.go:61","msg":"&{127.0.0.1 3306 mysql-test true 2020-05-22 12:09:16.204841 +0800 CST m=+30.119033844 MySQL} connect success"}
+{"level":"INFO","time":"2020-05-22T12:37:01.764+0800","caller":"collector/core.go:61","msg":"&{127.0.0.1 3306 mysql-test true 2020-05-22 12:37:01.750139 +0800 CST m=+0.010478310 MySQL} connect success"}
+{"level":"INFO","time":"2020-05-22T12:37:04.766+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:37:04.752134 +0800 CST m=+3.012478105 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:37:04.776+0800","caller":"collector/core.go:51","msg":"&{192.168.31.2 9200 warm-1 false 2020-05-22 12:37:04.75219 +0800 CST m=+3.012534186 ElasticSearch} connect error, err: dial tcp 192.168.31.2:9200: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:37:11.815+0800","caller":"collector/core.go:61","msg":"&{127.0.0.1 3306 mysql-test true 2020-05-22 12:37:11.79632 +0800 CST m=+10.056674805 MySQL} connect success"}
+{"level":"INFO","time":"2020-05-22T12:37:17.811+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:37:17.770536 +0800 CST m=+16.030899377 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:37:17.811+0800","caller":"collector/core.go:51","msg":"&{192.168.31.2 9200 warm-1 false 2020-05-22 12:37:17.778151 +0800 CST m=+16.038514889 ElasticSearch} connect error, err: dial tcp 192.168.31.2:9200: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:37:21.859+0800","caller":"collector/core.go:61","msg":"&{127.0.0.1 3306 mysql-test true 2020-05-22 12:37:21.846258 +0800 CST m=+20.106627351 MySQL} connect success"}
+{"level":"INFO","time":"2020-05-22T12:37:30.829+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:37:30.814309 +0800 CST m=+29.074691989 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:37:30.830+0800","caller":"collector/core.go:51","msg":"&{192.168.31.2 9200 warm-1 false 2020-05-22 12:37:30.814309 +0800 CST m=+29.074692532 ElasticSearch} connect error, err: dial tcp 192.168.31.2:9200: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:37:31.882+0800","caller":"collector/core.go:61","msg":"&{127.0.0.1 3306 mysql-test true 2020-05-22 12:37:31.86253 +0800 CST m=+30.122914841 MySQL} connect success"}
+{"level":"INFO","time":"2020-05-22T12:37:55.911+0800","caller":"collector/core.go:61","msg":"&{127.0.0.1 3306 mysql-test true 2020-05-22 12:37:55.895903 +0800 CST m=+0.030983988 MySQL} connect success"}
+{"level":"INFO","time":"2020-05-22T12:37:58.919+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:37:58.878245 +0800 CST m=+3.013329943 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:37:58.922+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:37:58.876884 +0800 CST m=+3.011968913 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:37:58.952+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:37:58.877194 +0800 CST m=+3.012278768 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:37:58.952+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:37:58.877961 +0800 CST m=+3.013045943 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:37:58.953+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:37:58.876976 +0800 CST m=+3.012060528 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:37:58.989+0800","caller":"collector/core.go:51","msg":"&{192.168.31.2 9200 warm-1 false 2020-05-22 12:37:58.876821 +0800 CST m=+3.011906145 ElasticSearch} connect error, err: dial tcp 192.168.31.2:9200: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:37:58.989+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:37:58.878053 +0800 CST m=+3.013137792 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:37:58.996+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:37:58.876994 +0800 CST m=+3.012079320 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:37:58.997+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:37:58.878181 +0800 CST m=+3.013265648 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:37:58.997+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:37:58.876843 +0800 CST m=+3.011928000 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:37:58.997+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:37:58.876821 +0800 CST m=+3.011906159 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:37:58.998+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:37:58.878078 +0800 CST m=+3.013163129 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:37:59.000+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:37:58.876852 +0800 CST m=+3.011936496 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:38:05.932+0800","caller":"collector/core.go:61","msg":"&{127.0.0.1 3306 mysql-test true 2020-05-22 12:38:05.918087 +0800 CST m=+10.053182291 MySQL} connect success"}
+{"level":"INFO","time":"2020-05-22T12:38:11.959+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:38:11.926923 +0800 CST m=+16.062027795 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:38:11.960+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:38:11.926929 +0800 CST m=+16.062033570 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:38:11.975+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:38:11.957934 +0800 CST m=+16.093038528 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:38:11.976+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:38:11.957932 +0800 CST m=+16.093036196 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:38:11.984+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:38:11.957932 +0800 CST m=+16.093036192 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:38:12.014+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:38:11.995206 +0800 CST m=+16.130310780 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:38:12.019+0800","caller":"collector/core.go:51","msg":"&{192.168.31.2 9200 warm-1 false 2020-05-22 12:38:11.995217 +0800 CST m=+16.130321365 ElasticSearch} connect error, err: dial tcp 192.168.31.2:9200: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:38:12.029+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:38:11.999297 +0800 CST m=+16.134401410 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:38:12.035+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:38:11.997682 +0800 CST m=+16.132786489 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:38:12.036+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:38:12.001437 +0800 CST m=+16.136541306 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:38:12.038+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:38:12.001438 +0800 CST m=+16.136542788 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:38:12.046+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:38:12.001537 +0800 CST m=+16.136641908 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:38:12.046+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:38:12.001793 +0800 CST m=+16.136897842 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:38:15.957+0800","caller":"collector/core.go:61","msg":"&{127.0.0.1 3306 mysql-test true 2020-05-22 12:38:15.94573 +0800 CST m=+20.080854667 MySQL} connect success"}
+{"level":"INFO","time":"2020-05-22T12:38:24.978+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:38:24.964293 +0800 CST m=+29.099417178 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:38:24.980+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:38:24.966354 +0800 CST m=+29.101477865 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:38:25.011+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:38:24.977061 +0800 CST m=+29.112184681 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:38:25.012+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:38:24.981259 +0800 CST m=+29.116383204 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:38:25.020+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:38:24.988043 +0800 CST m=+29.123166775 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:38:25.074+0800","caller":"collector/core.go:51","msg":"&{192.168.31.2 9200 warm-1 false 2020-05-22 12:38:25.022537 +0800 CST m=+29.157661257 ElasticSearch} connect error, err: dial tcp 192.168.31.2:9200: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:38:25.075+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:38:25.022539 +0800 CST m=+29.157663029 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:38:25.080+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:38:25.036965 +0800 CST m=+29.172089129 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:38:25.082+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:38:25.043485 +0800 CST m=+29.178608872 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:38:25.087+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:38:25.036451 +0800 CST m=+29.171575515 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:38:25.090+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:38:25.030681 +0800 CST m=+29.165805310 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:38:25.091+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:38:25.047112 +0800 CST m=+29.182236178 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:38:25.091+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:38:25.047448 +0800 CST m=+29.182572358 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:38:25.974+0800","caller":"collector/core.go:61","msg":"&{127.0.0.1 3306 mysql-test true 2020-05-22 12:38:25.961908 +0800 CST m=+30.097033770 MySQL} connect success"}
+{"level":"INFO","time":"2020-05-22T12:38:36.013+0800","caller":"collector/core.go:61","msg":"&{127.0.0.1 3306 mysql-test true 2020-05-22 12:38:35.994056 +0800 CST m=+40.129196315 MySQL} connect success"}
+{"level":"INFO","time":"2020-05-22T12:38:38.010+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:38:37.980485 +0800 CST m=+42.115628379 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:38:38.014+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:38:37.979526 +0800 CST m=+42.114670047 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:38:38.061+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:38:38.020466 +0800 CST m=+42.155609486 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:38:38.062+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:38:38.020488 +0800 CST m=+42.155631760 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:38:38.069+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:38:38.020819 +0800 CST m=+42.155962333 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:38:38.119+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:38:38.094386 +0800 CST m=+42.229529632 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:38:38.122+0800","caller":"collector/core.go:51","msg":"&{192.168.31.2 9200 warm-1 false 2020-05-22 12:38:38.076943 +0800 CST m=+42.212086876 ElasticSearch} connect error, err: dial tcp 192.168.31.2:9200: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:38:38.132+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:38:38.076944 +0800 CST m=+42.212087338 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:38:38.135+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:38:38.088787 +0800 CST m=+42.223930297 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:38:38.136+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:38:38.094349 +0800 CST m=+42.229492636 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:38:38.136+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:38:38.091401 +0800 CST m=+42.226544776 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:38:38.136+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:38:38.080972 +0800 CST m=+42.216115755 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:38:38.138+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:38:38.086566 +0800 CST m=+42.221709571 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:38:46.032+0800","caller":"collector/core.go:61","msg":"&{127.0.0.1 3306 mysql-test true 2020-05-22 12:38:46.018857 +0800 CST m=+50.154012421 MySQL} connect success"}
+{"level":"INFO","time":"2020-05-22T12:38:51.033+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:38:51.015797 +0800 CST m=+55.150960591 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:38:51.058+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:38:51.020436 +0800 CST m=+55.155598874 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:38:51.080+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:38:51.067483 +0800 CST m=+55.202645894 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:38:51.081+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:38:51.067488 +0800 CST m=+55.202651070 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:38:51.105+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:38:51.070332 +0800 CST m=+55.205494937 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:38:51.168+0800","caller":"collector/core.go:51","msg":"&{192.168.31.2 9200 warm-1 false 2020-05-22 12:38:51.12628 +0800 CST m=+55.261443010 ElasticSearch} connect error, err: dial tcp 192.168.31.2:9200: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:38:51.169+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:38:51.126273 +0800 CST m=+55.261436571 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:38:51.182+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:38:51.140896 +0800 CST m=+55.276059441 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:38:51.184+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:38:51.137146 +0800 CST m=+55.272309841 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:38:51.186+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:38:51.139844 +0800 CST m=+55.275007385 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:38:51.187+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:38:51.141591 +0800 CST m=+55.276754707 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:38:51.189+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:38:51.141576 +0800 CST m=+55.276739358 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:38:51.207+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:38:51.133315 +0800 CST m=+55.268477929 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:38:56.061+0800","caller":"collector/core.go:61","msg":"&{127.0.0.1 3306 mysql-test true 2020-05-22 12:38:56.046072 +0800 CST m=+60.181242699 MySQL} connect success"}
+{"level":"INFO","time":"2020-05-22T12:39:04.058+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:39:04.04054 +0800 CST m=+68.175722512 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:39:04.079+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:39:04.066245 +0800 CST m=+68.201427629 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:39:04.111+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:39:04.084246 +0800 CST m=+68.219429031 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:39:04.111+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:39:04.084837 +0800 CST m=+68.220019819 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:39:04.134+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:39:04.109957 +0800 CST m=+68.245139497 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:39:04.218+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:39:04.174965 +0800 CST m=+68.310148344 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:39:04.221+0800","caller":"collector/core.go:51","msg":"&{192.168.31.2 9200 warm-1 false 2020-05-22 12:39:04.174966 +0800 CST m=+68.310148806 ElasticSearch} connect error, err: dial tcp 192.168.31.2:9200: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:39:04.238+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:39:04.184426 +0800 CST m=+68.319609063 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:39:04.240+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:39:04.190462 +0800 CST m=+68.325644605 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:39:04.245+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:39:04.186835 +0800 CST m=+68.322017898 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:39:04.251+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:39:04.187452 +0800 CST m=+68.322635299 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:39:04.275+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:39:04.214673 +0800 CST m=+68.349856553 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:39:04.277+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:39:04.18684 +0800 CST m=+68.322023445 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:39:06.081+0800","caller":"collector/core.go:61","msg":"&{127.0.0.1 3306 mysql-test true 2020-05-22 12:39:06.067701 +0800 CST m=+70.202887310 MySQL} connect success"}
+{"level":"INFO","time":"2020-05-22T12:39:16.113+0800","caller":"collector/core.go:61","msg":"&{127.0.0.1 3306 mysql-test true 2020-05-22 12:39:16.095804 +0800 CST m=+80.231005245 MySQL} connect success"}
+{"level":"INFO","time":"2020-05-22T12:39:17.076+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:39:17.063102 +0800 CST m=+81.198304548 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:39:17.109+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:39:17.081957 +0800 CST m=+81.217159176 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:39:17.132+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:39:17.116456 +0800 CST m=+81.251658353 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:39:17.133+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:39:17.116464 +0800 CST m=+81.251666159 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:39:17.156+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:39:17.14044 +0800 CST m=+81.275642151 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:39:17.268+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:39:17.22131 +0800 CST m=+81.356512795 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:39:17.272+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:39:17.251891 +0800 CST m=+81.387093185 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:39:17.276+0800","caller":"collector/core.go:51","msg":"&{192.168.31.2 9200 warm-1 false 2020-05-22 12:39:17.225653 +0800 CST m=+81.360855783 ElasticSearch} connect error, err: dial tcp 192.168.31.2:9200: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:39:17.278+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:39:17.245709 +0800 CST m=+81.380911977 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:39:17.281+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:39:17.241366 +0800 CST m=+81.376568485 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:39:17.285+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:39:17.24944 +0800 CST m=+81.384642343 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:39:17.309+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:39:17.285762 +0800 CST m=+81.420964472 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:39:17.310+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test false 2020-05-22 12:39:17.285754 +0800 CST m=+81.420956934 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-05-22T12:39:26.127+0800","caller":"collector/core.go:61","msg":"&{127.0.0.1 3306 mysql-test true 2020-05-22 12:39:26.114577 +0800 CST m=+90.249793347 MySQL} connect success"}
