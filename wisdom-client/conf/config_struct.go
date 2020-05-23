@@ -3,8 +3,8 @@ package conf
 import "time"
 
 type YamlSetting struct {
-	Server Server
-	MySQLApplication MySQLApplication
+	Server                   Server
+	MySQLApplication         MySQLApplication
 	ElasticSearchApplication ElasticSearchApplication
 }
 
@@ -15,14 +15,12 @@ type Server struct {
 
 type MySQLApplication struct {
 	LoopTime time.Duration
-	Timeout time.Duration
-	Tag string
+	Timeout  time.Duration
 	HostPool []string
 }
 
 type ElasticSearchApplication struct {
 	LoopTime time.Duration
-	Timeout time.Duration
-	Tag string
+	Timeout  time.Duration
 	HostPool []string
 }

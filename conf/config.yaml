@@ -1,29 +1,22 @@
 Server:
   Host: "http://127.0.0.1:8080/api/v1/monitor"
-  Secret: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXJuYW1lIiwiZXhwIjoxNTkwMTU1OTYxLCJpc3MiOiJlbGtQb3J0ZXIifQ.cr8efy7N4TbsVPN0SDbTlnCFUNoXIhctr5ulQIFUlU8"
+  Secret: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXJuYW1lIiwiZXhwIjoxNTkwMjM5MjcyLCJpc3MiOiJlbGtQb3J0ZXIifQ.2mPl1JAlNlDPRgPwYhMpd8WHGYEbiRgDlNx2N0ZpX6Q"
 
 MySQLApplication:
-  Tag: MySQL
   LoopTime: 10
   Timeout: 3
   HostPool:
-    - "127.0.0.1:3306:mysql-test"
-    - "127.0.0.2:3306:mysql-test"
-    - "127.0.0.2:3306:mysql-test"
-    - "127.0.0.2:3306:mysql-test"
-    - "127.0.0.2:3306:mysql-test"
-    - "127.0.0.2:3306:mysql-test"
-    - "127.0.0.2:3306:mysql-test"
-    - "127.0.0.2:3306:mysql-test"
-    - "127.0.0.2:3306:mysql-test"
-    - "127.0.0.2:3306:mysql-test"
-    - "127.0.0.2:3306:mysql-test"
-    - "127.0.0.2:3306:mysql-test"
-    - "127.0.0.2:3306:mysql-test"
+    - "127.0.0.1:3306:mysql-test1"
+    - "127.0.0.2:3306:mysql-test2"
+    - "127.0.0.3:3306:mysql-test3"
+    - "127.0.0.4:3306:mysql-test4"
+    - "127.0.0.5:3306:mysql-test5"
+    - "127.0.0.6:3306:mysql-test6"
 
 ElasticSearchApplication:
-  Tag: ElasticSearch
   LoopTime: 10
   Timeout: 3
   HostPool:
     - "192.168.31.2:9200:warm-1"
+    - "192.168.31.3:9200:warm-2"
+    - "192.168.31.4:9200:warm-3"
