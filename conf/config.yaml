@@ -1,6 +1,6 @@
 Server:
-  Host: "http://127.0.0.1:8080/api/v1/monitor"
-  Secret: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXJuYW1lIiwiZXhwIjoxNTkwMjM5MjcyLCJpc3MiOiJlbGtQb3J0ZXIifQ.2mPl1JAlNlDPRgPwYhMpd8WHGYEbiRgDlNx2N0ZpX6Q"
+  Host: "http://127.0.0.1:8080/api/v1/monitor/tcp"
+  Secret: "AeZmOUaO-oVlRmeGtHK539xXt4nfh6DSCnVArRq-41M"
 
 MySQLApplication:
   LoopTime: 10

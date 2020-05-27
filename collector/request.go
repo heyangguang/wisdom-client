@@ -9,12 +9,12 @@ import (
 
 // 请求后端
 func httpRequest(url, secret string, obj interface{}) error {
-	request, err := http.NewRequest("POST", url, bytes.NewBuffer(structPareJson(obj)))
+	request, err := http.NewRequest("POST", url+"?token="+secret, bytes.NewBuffer(structPareJson(obj)))
 	if err != nil {
 		return err
 	}
 	// 设置头信息
-	request.Header.Add("Authorization", "Bearer " + secret)
+	//request.Header.Add("Authorization", "Bearer " + secret)
 	request.Header.Add("Content-Type", "application/json")
 	client := http.Client{}
 	_, err = client.Do(request)
