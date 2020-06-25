@@ -1,17 +1,17 @@
 package conf
 
 import (
+	"fmt"
 	"github.com/spf13/viper"
 	"wisdom-client/wisdom-client/logger"
 )
 
 var (
 	ViperConfig *viper.Viper
-	YamlObj *YamlSetting
+	YamlObj     *YamlSetting
 )
 
-
-func InitConfig(path string)  {
+func InitConfig(path string) {
 	ViperConfig = viper.New()
 	ViperConfig.SetConfigFile(path)
 	ViperConfig.SetConfigType("yaml")
@@ -19,6 +19,7 @@ func InitConfig(path string)  {
 		logger.Error("read config error, err: " + err.Error())
 	}
 	PareYaml()
+	logger.Debug(fmt.Sprintf("%v", YamlObj))
 }
 
 func PareYaml() {

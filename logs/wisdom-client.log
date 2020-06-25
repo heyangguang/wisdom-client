@@ -1020,3 +1020,474 @@
 {"level":"INFO","time":"2020-05-27T23:14:30.772+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test2 false 2020-05-27 23:14:30.766683 +0800 CST m=+3.005032809 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
 {"level":"INFO","time":"2020-05-27T23:14:30.773+0800","caller":"collector/core.go:51","msg":"&{127.0.0.3 3306 mysql-test3 false 2020-05-27 23:14:30.766708 +0800 CST m=+3.005057935 MySQL} connect error, err: dial tcp 127.0.0.3:3306: i/o timeout"}
 {"level":"INFO","time":"2020-05-27T23:14:30.773+0800","caller":"collector/core.go:51","msg":"&{127.0.0.4 3306 mysql-test4 false 2020-05-27 23:14:30.76669 +0800 CST m=+3.005039667 MySQL} connect error, err: dial tcp 127.0.0.4:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:45:28.128+0800","caller":"collector/core.go:51","msg":"&{192.168.31.2 9200 warm-1 false 2020-06-25 12:45:28.106344 +0800 CST m=+0.007560808 ElasticSearch} connect error, err: dial tcp 192.168.31.2:9200: connect: connection refused"}
+{"level":"INFO","time":"2020-06-25T12:45:28.136+0800","caller":"collector/core.go:61","msg":"&{localhost 3306 mysql-test1 true 2020-06-25 12:45:28.109141 +0800 CST m=+0.010358374 MySQL} connect success"}
+{"level":"INFO","time":"2020-06-25T12:45:31.107+0800","caller":"collector/core.go:51","msg":"&{192.168.32.21 9092 kafka-1 false 2020-06-25 12:45:31.104741 +0800 CST m=+3.005960756 Kafka} connect error, err: dial tcp 192.168.32.21:9092: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:45:31.113+0800","caller":"collector/core.go:51","msg":"&{192.168.32.31 9092 kafka-2 false 2020-06-25 12:45:31.104707 +0800 CST m=+3.005926647 Kafka} connect error, err: dial tcp 192.168.32.31:9092: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:45:31.117+0800","caller":"collector/core.go:51","msg":"&{192.168.32.41 9092 kafka-3 false 2020-06-25 12:45:31.104869 +0800 CST m=+3.006088989 Kafka} connect error, err: dial tcp 192.168.32.41:9092: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:45:31.128+0800","caller":"collector/core.go:51","msg":"&{127.0.0.3 3306 mysql-test3 false 2020-06-25 12:45:31.104742 +0800 CST m=+3.005961790 MySQL} connect error, err: dial tcp 127.0.0.3:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:45:31.129+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test2 false 2020-06-25 12:45:31.104781 +0800 CST m=+3.006000829 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:45:31.141+0800","caller":"collector/core.go:51","msg":"&{192.168.31.4 9200 warm-3 false 2020-06-25 12:45:31.105416 +0800 CST m=+3.006635371 ElasticSearch} connect error, err: dial tcp 192.168.31.4:9200: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:45:31.142+0800","caller":"collector/core.go:51","msg":"&{127.0.0.5 3306 mysql-test5 false 2020-06-25 12:45:31.104798 +0800 CST m=+3.006018027 MySQL} connect error, err: dial tcp 127.0.0.5:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:45:31.167+0800","caller":"collector/core.go:51","msg":"&{127.0.0.4 3306 mysql-test4 false 2020-06-25 12:45:31.104707 +0800 CST m=+3.005926642 MySQL} connect error, err: dial tcp 127.0.0.4:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:45:31.178+0800","caller":"collector/core.go:51","msg":"&{127.0.0.6 3306 mysql-test6 false 2020-06-25 12:45:31.104732 +0800 CST m=+3.005952128 MySQL} connect error, err: dial tcp 127.0.0.6:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:45:31.179+0800","caller":"collector/core.go:51","msg":"&{192.168.31.3 9200 warm-2 false 2020-06-25 12:45:31.104926 +0800 CST m=+3.006146306 ElasticSearch} connect error, err: dial tcp 192.168.31.3:9200: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:45:38.169+0800","caller":"collector/core.go:51","msg":"&{192.168.31.2 9200 warm-1 false 2020-06-25 12:45:38.155242 +0800 CST m=+10.056467954 ElasticSearch} connect error, err: dial tcp 192.168.31.2:9200: connect: connection refused"}
+{"level":"INFO","time":"2020-06-25T12:45:38.171+0800","caller":"collector/core.go:61","msg":"&{localhost 3306 mysql-test1 true 2020-06-25 12:45:38.158185 +0800 CST m=+10.059410918 MySQL} connect success"}
+{"level":"INFO","time":"2020-06-25T12:45:44.114+0800","caller":"collector/core.go:51","msg":"&{192.168.32.21 9092 kafka-1 false 2020-06-25 12:45:44.113263 +0800 CST m=+16.014495103 Kafka} connect error, err: dial tcp 192.168.32.21:9092: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:45:44.155+0800","caller":"collector/core.go:51","msg":"&{192.168.32.31 9092 kafka-2 false 2020-06-25 12:45:44.121426 +0800 CST m=+16.022657626 Kafka} connect error, err: dial tcp 192.168.32.31:9092: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:45:44.156+0800","caller":"collector/core.go:51","msg":"&{192.168.32.41 9092 kafka-3 false 2020-06-25 12:45:44.121424 +0800 CST m=+16.022656043 Kafka} connect error, err: dial tcp 192.168.32.41:9092: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:45:44.169+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test2 false 2020-06-25 12:45:44.130429 +0800 CST m=+16.031660648 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:45:44.171+0800","caller":"collector/core.go:51","msg":"&{127.0.0.3 3306 mysql-test3 false 2020-06-25 12:45:44.13044 +0800 CST m=+16.031671401 MySQL} connect error, err: dial tcp 127.0.0.3:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:45:44.183+0800","caller":"collector/core.go:51","msg":"&{192.168.31.4 9200 warm-3 false 2020-06-25 12:45:44.145279 +0800 CST m=+16.046510707 ElasticSearch} connect error, err: dial tcp 192.168.31.4:9200: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:45:44.186+0800","caller":"collector/core.go:51","msg":"&{127.0.0.5 3306 mysql-test5 false 2020-06-25 12:45:44.144106 +0800 CST m=+16.045338244 MySQL} connect error, err: dial tcp 127.0.0.5:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:45:44.215+0800","caller":"collector/core.go:51","msg":"&{127.0.0.4 3306 mysql-test4 false 2020-06-25 12:45:44.176643 +0800 CST m=+16.077874993 MySQL} connect error, err: dial tcp 127.0.0.4:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:45:44.218+0800","caller":"collector/core.go:51","msg":"&{192.168.31.3 9200 warm-2 false 2020-06-25 12:45:44.180049 +0800 CST m=+16.081281014 ElasticSearch} connect error, err: dial tcp 192.168.31.3:9200: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:45:44.224+0800","caller":"collector/core.go:51","msg":"&{127.0.0.6 3306 mysql-test6 false 2020-06-25 12:45:44.178818 +0800 CST m=+16.080049973 MySQL} connect error, err: dial tcp 127.0.0.6:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:45:48.222+0800","caller":"collector/core.go:51","msg":"&{192.168.31.2 9200 warm-1 false 2020-06-25 12:45:48.204983 +0800 CST m=+20.106219143 ElasticSearch} connect error, err: dial tcp 192.168.31.2:9200: connect: connection refused"}
+{"level":"INFO","time":"2020-06-25T12:45:48.225+0800","caller":"collector/core.go:61","msg":"&{localhost 3306 mysql-test1 true 2020-06-25 12:45:48.207643 +0800 CST m=+20.108878190 MySQL} connect success"}
+{"level":"INFO","time":"2020-06-25T12:45:54.216+0800","caller":"collector/core.go:51","msg":"&{192.168.31.4 9200 warm-3 false 2020-06-25 12:45:54.205823 +0800 CST m=+26.107064421 ElasticSearch} connect error, err: dial tcp 192.168.31.4:9200: connect: host is down"}
+{"level":"INFO","time":"2020-06-25T12:45:54.264+0800","caller":"collector/core.go:51","msg":"&{192.168.31.3 9200 warm-2 false 2020-06-25 12:45:54.220525 +0800 CST m=+26.121766123 ElasticSearch} connect error, err: dial tcp 192.168.31.3:9200: connect: host is down"}
+{"level":"INFO","time":"2020-06-25T12:45:57.118+0800","caller":"collector/core.go:51","msg":"&{192.168.32.21 9092 kafka-1 false 2020-06-25 12:45:57.11752 +0800 CST m=+29.018764175 Kafka} connect error, err: dial tcp 192.168.32.21:9092: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:45:57.161+0800","caller":"collector/core.go:51","msg":"&{192.168.32.31 9092 kafka-2 false 2020-06-25 12:45:57.160404 +0800 CST m=+29.061647964 Kafka} connect error, err: dial tcp 192.168.32.31:9092: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:45:57.167+0800","caller":"collector/core.go:51","msg":"&{192.168.32.41 9092 kafka-3 false 2020-06-25 12:45:57.165677 +0800 CST m=+29.066920475 Kafka} connect error, err: dial tcp 192.168.32.41:9092: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:45:57.221+0800","caller":"collector/core.go:51","msg":"&{127.0.0.5 3306 mysql-test5 false 2020-06-25 12:45:57.188518 +0800 CST m=+29.089761394 MySQL} connect error, err: dial tcp 127.0.0.5:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:45:57.223+0800","caller":"collector/core.go:51","msg":"&{127.0.0.3 3306 mysql-test3 false 2020-06-25 12:45:57.174384 +0800 CST m=+29.075628096 MySQL} connect error, err: dial tcp 127.0.0.3:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:45:57.237+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test2 false 2020-06-25 12:45:57.174384 +0800 CST m=+29.075628069 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:45:57.264+0800","caller":"collector/core.go:51","msg":"&{127.0.0.4 3306 mysql-test4 false 2020-06-25 12:45:57.223189 +0800 CST m=+29.124433430 MySQL} connect error, err: dial tcp 127.0.0.4:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:45:57.265+0800","caller":"collector/core.go:51","msg":"&{127.0.0.6 3306 mysql-test6 false 2020-06-25 12:45:57.229232 +0800 CST m=+29.130475796 MySQL} connect error, err: dial tcp 127.0.0.6:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:45:58.275+0800","caller":"collector/core.go:51","msg":"&{192.168.31.2 9200 warm-1 false 2020-06-25 12:45:58.254927 +0800 CST m=+30.156171933 ElasticSearch} connect error, err: dial tcp 192.168.31.2:9200: connect: connection refused"}
+{"level":"INFO","time":"2020-06-25T12:45:58.275+0800","caller":"collector/core.go:61","msg":"&{localhost 3306 mysql-test1 true 2020-06-25 12:45:58.257727 +0800 CST m=+30.158972131 MySQL} connect success"}
+{"level":"DEBUG","time":"2020-06-25T12:51:41.134+0800","caller":"conf/conf.go:23","msg":"&{{http://127.0.0.1:8080/api/v1/monitor/tcp AeZmOUaO-oVlRmeGtHK539xXt4nfh6DSCnVArRq-41M} {10ns 3ns [localhost:3306:mysql-test1 127.0.0.2:3306:mysql-test2 127.0.0.3:3306:mysql-test3 127.0.0.4:3306:mysql-test4 127.0.0.5:3306:mysql-test5 127.0.0.6:3306:mysql-test6]} {10ns 3ns [192.168.31.2:9200:warm-1 192.168.31.3:9200:warm-2 192.168.31.4:9200:warm-3]} {10ns 3ns [192.168.32.21:9092:kafka-1 192.168.32.31:9092:kafka-2 192.168.32.41:9092:kafka-3]}}"}
+{"level":"INFO","time":"2020-06-25T12:51:41.171+0800","caller":"collector/core.go:61","msg":"&{localhost 3306 mysql-test1 true 2020-06-25 12:51:41.159158 +0800 CST m=+0.027255128 MySQL} connect success"}
+{"level":"INFO","time":"2020-06-25T12:51:41.171+0800","caller":"collector/core.go:51","msg":"&{192.168.31.2 9200 warm-1 false 2020-06-25 12:51:41.153416 +0800 CST m=+0.021512968 ElasticSearch} connect error, err: dial tcp 192.168.31.2:9200: connect: connection refused"}
+{"level":"INFO","time":"2020-06-25T12:51:44.156+0800","caller":"collector/core.go:51","msg":"&{192.168.32.41 9092 kafka-3 false 2020-06-25 12:51:44.139155 +0800 CST m=+3.007254878 Kafka} connect error, err: dial tcp 192.168.32.41:9092: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:51:44.158+0800","caller":"collector/core.go:51","msg":"&{192.168.32.31 9092 kafka-2 false 2020-06-25 12:51:44.139718 +0800 CST m=+3.007817750 Kafka} connect error, err: dial tcp 192.168.32.31:9092: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:51:44.164+0800","caller":"collector/core.go:51","msg":"&{192.168.32.21 9092 kafka-1 false 2020-06-25 12:51:44.139521 +0800 CST m=+3.007621130 Kafka} connect error, err: dial tcp 192.168.32.21:9092: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:51:44.173+0800","caller":"collector/core.go:51","msg":"&{192.168.31.4 9200 warm-3 false 2020-06-25 12:51:44.139128 +0800 CST m=+3.007227452 ElasticSearch} connect error, err: dial tcp 192.168.31.4:9200: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:51:44.176+0800","caller":"collector/core.go:51","msg":"&{127.0.0.6 3306 mysql-test6 false 2020-06-25 12:51:44.13922 +0800 CST m=+3.007320124 MySQL} connect error, err: dial tcp 127.0.0.6:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:51:44.194+0800","caller":"collector/core.go:51","msg":"&{127.0.0.5 3306 mysql-test5 false 2020-06-25 12:51:44.139214 +0800 CST m=+3.007313753 MySQL} connect error, err: dial tcp 127.0.0.5:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:51:44.198+0800","caller":"collector/core.go:51","msg":"&{127.0.0.3 3306 mysql-test3 false 2020-06-25 12:51:44.13915 +0800 CST m=+3.007249670 MySQL} connect error, err: dial tcp 127.0.0.3:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:51:44.200+0800","caller":"collector/core.go:51","msg":"&{127.0.0.4 3306 mysql-test4 false 2020-06-25 12:51:44.139161 +0800 CST m=+3.007260828 MySQL} connect error, err: dial tcp 127.0.0.4:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:51:44.209+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test2 false 2020-06-25 12:51:44.139165 +0800 CST m=+3.007264591 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:51:44.212+0800","caller":"collector/core.go:51","msg":"&{192.168.31.3 9200 warm-2 false 2020-06-25 12:51:44.139166 +0800 CST m=+3.007266042 ElasticSearch} connect error, err: dial tcp 192.168.31.3:9200: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:51:51.220+0800","caller":"collector/core.go:51","msg":"&{192.168.31.2 9200 warm-1 false 2020-06-25 12:51:51.202834 +0800 CST m=+10.070939991 ElasticSearch} connect error, err: dial tcp 192.168.31.2:9200: connect: connection refused"}
+{"level":"INFO","time":"2020-06-25T12:51:51.222+0800","caller":"collector/core.go:61","msg":"&{localhost 3306 mysql-test1 true 2020-06-25 12:51:51.205354 +0800 CST m=+10.073460399 MySQL} connect success"}
+{"level":"INFO","time":"2020-06-25T12:51:57.164+0800","caller":"collector/core.go:51","msg":"&{192.168.32.41 9092 kafka-3 false 2020-06-25 12:51:57.16334 +0800 CST m=+16.031451336 Kafka} connect error, err: dial tcp 192.168.32.41:9092: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:51:57.164+0800","caller":"collector/core.go:51","msg":"&{192.168.32.31 9092 kafka-2 false 2020-06-25 12:51:57.163346 +0800 CST m=+16.031457940 Kafka} connect error, err: dial tcp 192.168.32.31:9092: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:51:57.203+0800","caller":"collector/core.go:51","msg":"&{192.168.32.21 9092 kafka-1 false 2020-06-25 12:51:57.172974 +0800 CST m=+16.041085435 Kafka} connect error, err: dial tcp 192.168.32.21:9092: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:51:57.224+0800","caller":"collector/core.go:51","msg":"&{192.168.31.4 9200 warm-3 false 2020-06-25 12:51:57.174377 +0800 CST m=+16.042488292 ElasticSearch} connect error, err: dial tcp 192.168.31.4:9200: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:51:57.226+0800","caller":"collector/core.go:51","msg":"&{127.0.0.6 3306 mysql-test6 false 2020-06-25 12:51:57.180975 +0800 CST m=+16.049086291 MySQL} connect error, err: dial tcp 127.0.0.6:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:51:57.240+0800","caller":"collector/core.go:51","msg":"&{127.0.0.4 3306 mysql-test4 false 2020-06-25 12:51:57.205727 +0800 CST m=+16.073838838 MySQL} connect error, err: dial tcp 127.0.0.4:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:51:57.241+0800","caller":"collector/core.go:51","msg":"&{127.0.0.5 3306 mysql-test5 false 2020-06-25 12:51:57.203089 +0800 CST m=+16.071200549 MySQL} connect error, err: dial tcp 127.0.0.5:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:51:57.250+0800","caller":"collector/core.go:51","msg":"&{192.168.31.3 9200 warm-2 false 2020-06-25 12:51:57.2137 +0800 CST m=+16.081811957 ElasticSearch} connect error, err: dial tcp 192.168.31.3:9200: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:51:57.250+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test2 false 2020-06-25 12:51:57.211474 +0800 CST m=+16.079585814 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:51:57.253+0800","caller":"collector/core.go:51","msg":"&{127.0.0.3 3306 mysql-test3 false 2020-06-25 12:51:57.203174 +0800 CST m=+16.071285786 MySQL} connect error, err: dial tcp 127.0.0.3:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:52:01.268+0800","caller":"collector/core.go:51","msg":"&{192.168.31.2 9200 warm-1 false 2020-06-25 12:52:01.253204 +0800 CST m=+20.121319329 ElasticSearch} connect error, err: dial tcp 192.168.31.2:9200: connect: connection refused"}
+{"level":"INFO","time":"2020-06-25T12:52:01.269+0800","caller":"collector/core.go:61","msg":"&{localhost 3306 mysql-test1 true 2020-06-25 12:52:01.256941 +0800 CST m=+20.125056656 MySQL} connect success"}
+{"level":"INFO","time":"2020-06-25T12:52:07.272+0800","caller":"collector/core.go:51","msg":"&{192.168.31.4 9200 warm-3 false 2020-06-25 12:52:07.25313 +0800 CST m=+26.121251815 ElasticSearch} connect error, err: dial tcp 192.168.31.4:9200: connect: host is down"}
+{"level":"INFO","time":"2020-06-25T12:52:07.273+0800","caller":"collector/core.go:51","msg":"&{192.168.31.3 9200 warm-2 false 2020-06-25 12:52:07.256784 +0800 CST m=+26.124905374 ElasticSearch} connect error, err: dial tcp 192.168.31.3:9200: connect: host is down"}
+{"level":"INFO","time":"2020-06-25T12:52:10.203+0800","caller":"collector/core.go:51","msg":"&{192.168.32.31 9092 kafka-2 false 2020-06-25 12:52:10.174067 +0800 CST m=+29.042191209 Kafka} connect error, err: dial tcp 192.168.32.31:9092: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:52:10.203+0800","caller":"collector/core.go:51","msg":"&{192.168.32.41 9092 kafka-3 false 2020-06-25 12:52:10.174074 +0800 CST m=+29.042197399 Kafka} connect error, err: dial tcp 192.168.32.41:9092: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:52:10.213+0800","caller":"collector/core.go:51","msg":"&{192.168.32.21 9092 kafka-1 false 2020-06-25 12:52:10.212686 +0800 CST m=+29.080810221 Kafka} connect error, err: dial tcp 192.168.32.21:9092: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:52:10.266+0800","caller":"collector/core.go:51","msg":"&{127.0.0.4 3306 mysql-test4 false 2020-06-25 12:52:10.24637 +0800 CST m=+29.114493861 MySQL} connect error, err: dial tcp 127.0.0.4:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:52:10.266+0800","caller":"collector/core.go:51","msg":"&{127.0.0.6 3306 mysql-test6 false 2020-06-25 12:52:10.232724 +0800 CST m=+29.100847512 MySQL} connect error, err: dial tcp 127.0.0.6:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:52:10.282+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test2 false 2020-06-25 12:52:10.252313 +0800 CST m=+29.120436965 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:52:10.283+0800","caller":"collector/core.go:51","msg":"&{127.0.0.3 3306 mysql-test3 false 2020-06-25 12:52:10.25909 +0800 CST m=+29.127214048 MySQL} connect error, err: dial tcp 127.0.0.3:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:52:10.284+0800","caller":"collector/core.go:51","msg":"&{127.0.0.5 3306 mysql-test5 false 2020-06-25 12:52:10.246386 +0800 CST m=+29.114509546 MySQL} connect error, err: dial tcp 127.0.0.5:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:52:11.316+0800","caller":"collector/core.go:51","msg":"&{192.168.31.2 9200 warm-1 false 2020-06-25 12:52:11.302955 +0800 CST m=+30.171080271 ElasticSearch} connect error, err: dial tcp 192.168.31.2:9200: connect: connection refused"}
+{"level":"INFO","time":"2020-06-25T12:52:11.321+0800","caller":"collector/core.go:61","msg":"&{localhost 3306 mysql-test1 true 2020-06-25 12:52:11.307153 +0800 CST m=+30.175277882 MySQL} connect success"}
+{"level":"INFO","time":"2020-06-25T12:52:20.320+0800","caller":"collector/core.go:51","msg":"&{192.168.31.3 9200 warm-2 false 2020-06-25 12:52:20.277419 +0800 CST m=+39.145552371 ElasticSearch} connect error, err: dial tcp 192.168.31.3:9200: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:52:20.322+0800","caller":"collector/core.go:51","msg":"&{192.168.31.4 9200 warm-3 false 2020-06-25 12:52:20.281043 +0800 CST m=+39.149176291 ElasticSearch} connect error, err: dial tcp 192.168.31.4:9200: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:52:21.365+0800","caller":"collector/core.go:51","msg":"&{192.168.31.2 9200 warm-1 false 2020-06-25 12:52:21.352883 +0800 CST m=+40.221016874 ElasticSearch} connect error, err: dial tcp 192.168.31.2:9200: connect: connection refused"}
+{"level":"INFO","time":"2020-06-25T12:52:21.367+0800","caller":"collector/core.go:61","msg":"&{localhost 3306 mysql-test1 true 2020-06-25 12:52:21.355747 +0800 CST m=+40.223881025 MySQL} connect success"}
+{"level":"INFO","time":"2020-06-25T12:52:23.213+0800","caller":"collector/core.go:51","msg":"&{192.168.32.31 9092 kafka-2 false 2020-06-25 12:52:23.211253 +0800 CST m=+42.079388951 Kafka} connect error, err: dial tcp 192.168.32.31:9092: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:52:23.213+0800","caller":"collector/core.go:51","msg":"&{192.168.32.41 9092 kafka-3 false 2020-06-25 12:52:23.211266 +0800 CST m=+42.079402149 Kafka} connect error, err: dial tcp 192.168.32.41:9092: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:52:23.217+0800","caller":"collector/core.go:51","msg":"&{192.168.32.21 9092 kafka-1 false 2020-06-25 12:52:23.21626 +0800 CST m=+42.084395488 Kafka} connect error, err: dial tcp 192.168.32.21:9092: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:52:23.319+0800","caller":"collector/core.go:51","msg":"&{127.0.0.6 3306 mysql-test6 false 2020-06-25 12:52:23.27449 +0800 CST m=+42.142626365 MySQL} connect error, err: dial tcp 127.0.0.6:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:52:23.321+0800","caller":"collector/core.go:51","msg":"&{127.0.0.4 3306 mysql-test4 false 2020-06-25 12:52:23.274506 +0800 CST m=+42.142641774 MySQL} connect error, err: dial tcp 127.0.0.4:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:52:23.329+0800","caller":"collector/core.go:51","msg":"&{127.0.0.3 3306 mysql-test3 false 2020-06-25 12:52:23.287594 +0800 CST m=+42.155729773 MySQL} connect error, err: dial tcp 127.0.0.3:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:52:23.330+0800","caller":"collector/core.go:51","msg":"&{127.0.0.5 3306 mysql-test5 false 2020-06-25 12:52:23.287603 +0800 CST m=+42.155738675 MySQL} connect error, err: dial tcp 127.0.0.5:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:52:23.332+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test2 false 2020-06-25 12:52:23.287613 +0800 CST m=+42.155748552 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:52:31.416+0800","caller":"collector/core.go:61","msg":"&{localhost 3306 mysql-test1 true 2020-06-25 12:52:31.406334 +0800 CST m=+50.274477324 MySQL} connect success"}
+{"level":"INFO","time":"2020-06-25T12:52:31.417+0800","caller":"collector/core.go:51","msg":"&{192.168.31.2 9200 warm-1 false 2020-06-25 12:52:31.403042 +0800 CST m=+50.271185961 ElasticSearch} connect error, err: dial tcp 192.168.31.2:9200: connect: connection refused"}
+{"level":"INFO","time":"2020-06-25T12:52:33.364+0800","caller":"collector/core.go:51","msg":"&{192.168.31.4 9200 warm-3 false 2020-06-25 12:52:33.324857 +0800 CST m=+52.193002006 ElasticSearch} connect error, err: dial tcp 192.168.31.4:9200: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:52:33.364+0800","caller":"collector/core.go:51","msg":"&{192.168.31.3 9200 warm-2 false 2020-06-25 12:52:33.324829 +0800 CST m=+52.192974282 ElasticSearch} connect error, err: dial tcp 192.168.31.3:9200: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:52:36.255+0800","caller":"collector/core.go:51","msg":"&{192.168.32.31 9092 kafka-2 false 2020-06-25 12:52:36.220714 +0800 CST m=+55.088861789 Kafka} connect error, err: dial tcp 192.168.32.31:9092: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:52:36.256+0800","caller":"collector/core.go:51","msg":"&{192.168.32.41 9092 kafka-3 false 2020-06-25 12:52:36.220714 +0800 CST m=+55.088861798 Kafka} connect error, err: dial tcp 192.168.32.41:9092: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:52:36.256+0800","caller":"collector/core.go:51","msg":"&{192.168.32.21 9092 kafka-1 false 2020-06-25 12:52:36.22516 +0800 CST m=+55.093308001 Kafka} connect error, err: dial tcp 192.168.32.21:9092: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:52:36.367+0800","caller":"collector/core.go:51","msg":"&{127.0.0.4 3306 mysql-test4 false 2020-06-25 12:52:36.328675 +0800 CST m=+55.196825490 MySQL} connect error, err: dial tcp 127.0.0.4:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:52:36.369+0800","caller":"collector/core.go:51","msg":"&{127.0.0.6 3306 mysql-test6 false 2020-06-25 12:52:36.328683 +0800 CST m=+55.196831199 MySQL} connect error, err: dial tcp 127.0.0.6:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:52:36.379+0800","caller":"collector/core.go:51","msg":"&{127.0.0.3 3306 mysql-test3 false 2020-06-25 12:52:36.330905 +0800 CST m=+55.199053245 MySQL} connect error, err: dial tcp 127.0.0.3:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:52:36.381+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test2 false 2020-06-25 12:52:36.333686 +0800 CST m=+55.201833972 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:52:36.382+0800","caller":"collector/core.go:51","msg":"&{127.0.0.5 3306 mysql-test5 false 2020-06-25 12:52:36.336066 +0800 CST m=+55.204214327 MySQL} connect error, err: dial tcp 127.0.0.5:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:52:41.470+0800","caller":"collector/core.go:51","msg":"&{192.168.31.2 9200 warm-1 false 2020-06-25 12:52:41.454641 +0800 CST m=+60.322793326 ElasticSearch} connect error, err: dial tcp 192.168.31.2:9200: connect: connection refused"}
+{"level":"INFO","time":"2020-06-25T12:52:41.471+0800","caller":"collector/core.go:61","msg":"&{localhost 3306 mysql-test1 true 2020-06-25 12:52:41.456894 +0800 CST m=+60.325046919 MySQL} connect success"}
+{"level":"INFO","time":"2020-06-25T12:52:43.416+0800","caller":"collector/core.go:51","msg":"&{192.168.31.3 9200 warm-2 false 2020-06-25 12:52:43.369863 +0800 CST m=+62.238017574 ElasticSearch} connect error, err: dial tcp 192.168.31.3:9200: connect: host is down"}
+{"level":"INFO","time":"2020-06-25T12:52:43.416+0800","caller":"collector/core.go:51","msg":"&{192.168.31.4 9200 warm-3 false 2020-06-25 12:52:43.37026 +0800 CST m=+62.238414943 ElasticSearch} connect error, err: dial tcp 192.168.31.4:9200: connect: host is down"}
+{"level":"INFO","time":"2020-06-25T12:52:49.265+0800","caller":"collector/core.go:51","msg":"&{192.168.32.21 9092 kafka-1 false 2020-06-25 12:52:49.262893 +0800 CST m=+68.131053068 Kafka} connect error, err: dial tcp 192.168.32.21:9092: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:52:49.265+0800","caller":"collector/core.go:51","msg":"&{192.168.32.41 9092 kafka-3 false 2020-06-25 12:52:49.262972 +0800 CST m=+68.131132033 Kafka} connect error, err: dial tcp 192.168.32.41:9092: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:52:49.266+0800","caller":"collector/core.go:51","msg":"&{192.168.32.31 9092 kafka-2 false 2020-06-25 12:52:49.262967 +0800 CST m=+68.131146438 Kafka} connect error, err: dial tcp 192.168.32.31:9092: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:52:49.420+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test2 false 2020-06-25 12:52:49.383191 +0800 CST m=+68.251351481 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:52:49.422+0800","caller":"collector/core.go:51","msg":"&{127.0.0.4 3306 mysql-test4 false 2020-06-25 12:52:49.375 +0800 CST m=+68.243160195 MySQL} connect error, err: dial tcp 127.0.0.4:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:52:49.434+0800","caller":"collector/core.go:51","msg":"&{127.0.0.3 3306 mysql-test3 false 2020-06-25 12:52:49.380294 +0800 CST m=+68.248453809 MySQL} connect error, err: dial tcp 127.0.0.3:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:52:49.436+0800","caller":"collector/core.go:51","msg":"&{127.0.0.5 3306 mysql-test5 false 2020-06-25 12:52:49.383174 +0800 CST m=+68.251333678 MySQL} connect error, err: dial tcp 127.0.0.5:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:52:49.437+0800","caller":"collector/core.go:51","msg":"&{127.0.0.6 3306 mysql-test6 false 2020-06-25 12:52:49.374999 +0800 CST m=+68.243158865 MySQL} connect error, err: dial tcp 127.0.0.6:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:52:51.517+0800","caller":"collector/core.go:61","msg":"&{localhost 3306 mysql-test1 true 2020-06-25 12:52:51.505248 +0800 CST m=+70.373410520 MySQL} connect success"}
+{"level":"INFO","time":"2020-06-25T12:52:51.518+0800","caller":"collector/core.go:51","msg":"&{192.168.31.2 9200 warm-1 false 2020-06-25 12:52:51.502648 +0800 CST m=+70.370810168 ElasticSearch} connect error, err: dial tcp 192.168.31.2:9200: connect: connection refused"}
+{"level":"INFO","time":"2020-06-25T12:52:56.468+0800","caller":"collector/core.go:51","msg":"&{192.168.31.3 9200 warm-2 false 2020-06-25 12:52:56.425182 +0800 CST m=+75.293349013 ElasticSearch} connect error, err: dial tcp 192.168.31.3:9200: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:52:56.468+0800","caller":"collector/core.go:51","msg":"&{192.168.31.4 9200 warm-3 false 2020-06-25 12:52:56.42516 +0800 CST m=+75.293327198 ElasticSearch} connect error, err: dial tcp 192.168.31.4:9200: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:53:01.573+0800","caller":"collector/core.go:51","msg":"&{192.168.31.2 9200 warm-1 false 2020-06-25 12:53:01.553025 +0800 CST m=+80.421196760 ElasticSearch} connect error, err: dial tcp 192.168.31.2:9200: connect: connection refused"}
+{"level":"INFO","time":"2020-06-25T12:53:01.576+0800","caller":"collector/core.go:61","msg":"&{localhost 3306 mysql-test1 true 2020-06-25 12:53:01.555556 +0800 CST m=+80.423727553 MySQL} connect success"}
+{"level":"INFO","time":"2020-06-25T12:53:02.304+0800","caller":"collector/core.go:51","msg":"&{192.168.32.21 9092 kafka-1 false 2020-06-25 12:53:02.274779 +0800 CST m=+81.142951204 Kafka} connect error, err: dial tcp 192.168.32.21:9092: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:53:02.304+0800","caller":"collector/core.go:51","msg":"&{192.168.32.31 9092 kafka-2 false 2020-06-25 12:53:02.2748 +0800 CST m=+81.142971596 Kafka} connect error, err: dial tcp 192.168.32.31:9092: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:53:02.305+0800","caller":"collector/core.go:51","msg":"&{192.168.32.41 9092 kafka-3 false 2020-06-25 12:53:02.274792 +0800 CST m=+81.142964479 Kafka} connect error, err: dial tcp 192.168.32.41:9092: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:53:02.469+0800","caller":"collector/core.go:51","msg":"&{127.0.0.5 3306 mysql-test5 false 2020-06-25 12:53:02.440058 +0800 CST m=+81.308230618 MySQL} connect error, err: dial tcp 127.0.0.5:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:53:02.471+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test2 false 2020-06-25 12:53:02.427255 +0800 CST m=+81.295427290 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:53:02.483+0800","caller":"collector/core.go:51","msg":"&{127.0.0.6 3306 mysql-test6 false 2020-06-25 12:53:02.440049 +0800 CST m=+81.308221286 MySQL} connect error, err: dial tcp 127.0.0.6:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:53:02.490+0800","caller":"collector/core.go:51","msg":"&{127.0.0.4 3306 mysql-test4 false 2020-06-25 12:53:02.427273 +0800 CST m=+81.295445338 MySQL} connect error, err: dial tcp 127.0.0.4:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:53:02.491+0800","caller":"collector/core.go:51","msg":"&{127.0.0.3 3306 mysql-test3 false 2020-06-25 12:53:02.440081 +0800 CST m=+81.308253638 MySQL} connect error, err: dial tcp 127.0.0.3:3306: i/o timeout"}
+{"level":"DEBUG","time":"2020-06-25T12:55:37.651+0800","caller":"conf/conf.go:23","msg":"&{{http://127.0.0.1:8080/api/v1/monitor/tcp AeZmOUaO-oVlRmeGtHK539xXt4nfh6DSCnVArRq-41M} {10ns 3ns [localhost:3306:mysql-test1 127.0.0.2:3306:mysql-test2 127.0.0.3:3306:mysql-test3 127.0.0.4:3306:mysql-test4 127.0.0.5:3306:mysql-test5 127.0.0.6:3306:mysql-test6]} {10ns 3ns [192.168.31.2:9200:warm-1 192.168.31.3:9200:warm-2 192.168.31.4:9200:warm-3]} {10ns 3ns [192.168.32.21:9092:kafka-1 192.168.32.31:9092:kafka-2 192.168.32.41:9092:kafka-3]}}"}
+{"level":"DEBUG","time":"2020-06-25T12:55:37.651+0800","caller":"collector/collector.go:29","msg":"Start Kafka"}
+{"level":"INFO","time":"2020-06-25T12:55:37.673+0800","caller":"collector/core.go:51","msg":"&{192.168.31.2 9200 warm-1 false 2020-06-25 12:55:37.656476 +0800 CST m=+0.007427493 ElasticSearch} connect error, err: dial tcp 192.168.31.2:9200: connect: connection refused"}
+{"level":"INFO","time":"2020-06-25T12:55:37.682+0800","caller":"collector/core.go:61","msg":"&{localhost 3306 mysql-test1 true 2020-06-25 12:55:37.658948 +0800 CST m=+0.009899894 MySQL} connect success"}
+{"level":"INFO","time":"2020-06-25T12:55:40.681+0800","caller":"collector/core.go:51","msg":"&{127.0.0.3 3306 mysql-test3 false 2020-06-25 12:55:40.65595 +0800 CST m=+3.006904630 MySQL} connect error, err: dial tcp 127.0.0.3:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:55:40.687+0800","caller":"collector/core.go:51","msg":"&{192.168.32.41 9092 kafka-3 false 2020-06-25 12:55:40.655936 +0800 CST m=+3.006890665 Kafka} connect error, err: dial tcp 192.168.32.41:9092: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:55:40.700+0800","caller":"collector/core.go:51","msg":"&{127.0.0.6 3306 mysql-test6 false 2020-06-25 12:55:40.655941 +0800 CST m=+3.006895661 MySQL} connect error, err: dial tcp 127.0.0.6:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:55:40.701+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test2 false 2020-06-25 12:55:40.655992 +0800 CST m=+3.006946432 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:55:40.703+0800","caller":"collector/core.go:51","msg":"&{127.0.0.4 3306 mysql-test4 false 2020-06-25 12:55:40.656347 +0800 CST m=+3.007301684 MySQL} connect error, err: dial tcp 127.0.0.4:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:55:40.708+0800","caller":"collector/core.go:51","msg":"&{192.168.31.4 9200 warm-3 false 2020-06-25 12:55:40.655965 +0800 CST m=+3.006919447 ElasticSearch} connect error, err: dial tcp 192.168.31.4:9200: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:55:40.709+0800","caller":"collector/core.go:51","msg":"&{127.0.0.5 3306 mysql-test5 false 2020-06-25 12:55:40.656012 +0800 CST m=+3.006966393 MySQL} connect error, err: dial tcp 127.0.0.5:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:55:40.713+0800","caller":"collector/core.go:51","msg":"&{192.168.31.3 9200 warm-2 false 2020-06-25 12:55:40.656399 +0800 CST m=+3.007353443 ElasticSearch} connect error, err: dial tcp 192.168.31.3:9200: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:55:40.713+0800","caller":"collector/core.go:51","msg":"&{192.168.32.21 9092 kafka-1 false 2020-06-25 12:55:40.655968 +0800 CST m=+3.006922793 Kafka} connect error, err: dial tcp 192.168.32.21:9092: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:55:40.714+0800","caller":"collector/core.go:51","msg":"&{192.168.32.31 9092 kafka-2 false 2020-06-25 12:55:40.655946 +0800 CST m=+3.006900818 Kafka} connect error, err: dial tcp 192.168.32.31:9092: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:55:47.714+0800","caller":"collector/core.go:51","msg":"&{192.168.31.2 9200 warm-1 false 2020-06-25 12:55:47.702608 +0800 CST m=+10.053569343 ElasticSearch} connect error, err: dial tcp 192.168.31.2:9200: connect: connection refused"}
+{"level":"INFO","time":"2020-06-25T12:55:47.719+0800","caller":"collector/core.go:61","msg":"&{localhost 3306 mysql-test1 true 2020-06-25 12:55:47.70808 +0800 CST m=+10.059040754 MySQL} connect success"}
+{"level":"INFO","time":"2020-06-25T12:55:53.727+0800","caller":"collector/core.go:51","msg":"&{192.168.32.41 9092 kafka-3 false 2020-06-25 12:55:53.688945 +0800 CST m=+16.039911658 Kafka} connect error, err: dial tcp 192.168.32.41:9092: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:55:53.730+0800","caller":"collector/core.go:51","msg":"&{127.0.0.3 3306 mysql-test3 false 2020-06-25 12:55:53.688945 +0800 CST m=+16.039911758 MySQL} connect error, err: dial tcp 127.0.0.3:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:55:53.739+0800","caller":"collector/core.go:51","msg":"&{127.0.0.4 3306 mysql-test4 false 2020-06-25 12:55:53.704015 +0800 CST m=+16.054982015 MySQL} connect error, err: dial tcp 127.0.0.4:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:55:53.741+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test2 false 2020-06-25 12:55:53.703302 +0800 CST m=+16.054268705 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:55:53.745+0800","caller":"collector/core.go:51","msg":"&{192.168.32.31 9092 kafka-2 false 2020-06-25 12:55:53.71577 +0800 CST m=+16.066736286 Kafka} connect error, err: dial tcp 192.168.32.31:9092: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:55:53.748+0800","caller":"collector/core.go:51","msg":"&{192.168.31.3 9200 warm-2 false 2020-06-25 12:55:53.717692 +0800 CST m=+16.068658357 ElasticSearch} connect error, err: dial tcp 192.168.31.3:9200: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:55:53.749+0800","caller":"collector/core.go:51","msg":"&{127.0.0.5 3306 mysql-test5 false 2020-06-25 12:55:53.714085 +0800 CST m=+16.065051944 MySQL} connect error, err: dial tcp 127.0.0.5:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:55:53.756+0800","caller":"collector/core.go:51","msg":"&{127.0.0.6 3306 mysql-test6 false 2020-06-25 12:55:53.703335 +0800 CST m=+16.054301864 MySQL} connect error, err: dial tcp 127.0.0.6:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:55:53.757+0800","caller":"collector/core.go:51","msg":"&{192.168.32.21 9092 kafka-1 false 2020-06-25 12:55:53.717647 +0800 CST m=+16.068613571 Kafka} connect error, err: dial tcp 192.168.32.21:9092: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:55:53.757+0800","caller":"collector/core.go:51","msg":"&{192.168.31.4 9200 warm-3 false 2020-06-25 12:55:53.709175 +0800 CST m=+16.060142007 ElasticSearch} connect error, err: dial tcp 192.168.31.4:9200: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:55:57.764+0800","caller":"collector/core.go:61","msg":"&{localhost 3306 mysql-test1 true 2020-06-25 12:55:57.755563 +0800 CST m=+20.106533519 MySQL} connect success"}
+{"level":"INFO","time":"2020-06-25T12:55:57.765+0800","caller":"collector/core.go:51","msg":"&{192.168.31.2 9200 warm-1 false 2020-06-25 12:55:57.752743 +0800 CST m=+20.103713053 ElasticSearch} connect error, err: dial tcp 192.168.31.2:9200: connect: connection refused"}
+{"level":"DEBUG","time":"2020-06-25T12:56:40.282+0800","caller":"conf/conf.go:23","msg":"&{{http://127.0.0.1:8080/api/v1/monitor/tcp AeZmOUaO-oVlRmeGtHK539xXt4nfh6DSCnVArRq-41M} {10ns 3ns [localhost:3306:mysql-test1 127.0.0.2:3306:mysql-test2 127.0.0.3:3306:mysql-test3 127.0.0.4:3306:mysql-test4 127.0.0.5:3306:mysql-test5 127.0.0.6:3306:mysql-test6]} {10ns 3ns [192.168.31.2:9200:warm-1 192.168.31.3:9200:warm-2 192.168.31.4:9200:warm-3]} {10ns 3ns [192.168.32.21:9092:kafka-1 192.168.32.31:9092:kafka-2 192.168.32.41:9092:kafka-3]}}"}
+{"level":"DEBUG","time":"2020-06-25T12:56:40.283+0800","caller":"collector/collector.go:29","msg":"Start Kafka"}
+{"level":"INFO","time":"2020-06-25T12:56:40.316+0800","caller":"collector/core.go:51","msg":"&{192.168.31.2 9200 warm-1 false 2020-06-25 12:56:40.30479 +0800 CST m=+0.024633207 ElasticSearch} connect error, err: dial tcp 192.168.31.2:9200: connect: connection refused"}
+{"level":"INFO","time":"2020-06-25T12:56:40.327+0800","caller":"collector/core.go:61","msg":"&{localhost 3306 mysql-test1 true 2020-06-25 12:56:40.307031 +0800 CST m=+0.026874013 MySQL} connect success"}
+{"level":"INFO","time":"2020-06-25T12:56:43.322+0800","caller":"collector/core.go:51","msg":"&{192.168.31.3 9200 warm-2 false 2020-06-25 12:56:43.288647 +0800 CST m=+3.008493701 ElasticSearch} connect error, err: dial tcp 192.168.31.3:9200: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:56:43.322+0800","caller":"collector/core.go:51","msg":"&{127.0.0.4 3306 mysql-test4 false 2020-06-25 12:56:43.288639 +0800 CST m=+3.008485269 MySQL} connect error, err: dial tcp 127.0.0.4:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:56:43.349+0800","caller":"collector/core.go:51","msg":"&{127.0.0.5 3306 mysql-test5 false 2020-06-25 12:56:43.288702 +0800 CST m=+3.008548604 MySQL} connect error, err: dial tcp 127.0.0.5:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:56:43.355+0800","caller":"collector/core.go:51","msg":"&{192.168.31.4 9200 warm-3 false 2020-06-25 12:56:43.289116 +0800 CST m=+3.008962714 ElasticSearch} connect error, err: dial tcp 192.168.31.4:9200: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:56:43.357+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test2 false 2020-06-25 12:56:43.288771 +0800 CST m=+3.008616680 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:56:43.357+0800","caller":"collector/core.go:51","msg":"&{127.0.0.3 3306 mysql-test3 false 2020-06-25 12:56:43.288661 +0800 CST m=+3.008507557 MySQL} connect error, err: dial tcp 127.0.0.3:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:56:43.358+0800","caller":"collector/core.go:51","msg":"&{192.168.32.31 9092 kafka-2 false 2020-06-25 12:56:43.288686 +0800 CST m=+3.008531847 Kafka} connect error, err: dial tcp 192.168.32.31:9092: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:56:43.358+0800","caller":"collector/core.go:51","msg":"&{127.0.0.6 3306 mysql-test6 false 2020-06-25 12:56:43.288649 +0800 CST m=+3.008495288 MySQL} connect error, err: dial tcp 127.0.0.6:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:56:43.358+0800","caller":"collector/core.go:51","msg":"&{192.168.32.21 9092 kafka-1 false 2020-06-25 12:56:43.288685 +0800 CST m=+3.008531680 Kafka} connect error, err: dial tcp 192.168.32.21:9092: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:56:43.378+0800","caller":"collector/core.go:51","msg":"&{192.168.32.41 9092 kafka-3 false 2020-06-25 12:56:43.289364 +0800 CST m=+3.009209817 Kafka} connect error, err: dial tcp 192.168.32.41:9092: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:56:50.366+0800","caller":"collector/core.go:61","msg":"&{localhost 3306 mysql-test1 true 2020-06-25 12:56:50.355735 +0800 CST m=+10.075587894 MySQL} connect success"}
+{"level":"INFO","time":"2020-06-25T12:56:50.366+0800","caller":"collector/core.go:51","msg":"&{192.168.31.2 9200 warm-1 false 2020-06-25 12:56:50.352701 +0800 CST m=+10.072553769 ElasticSearch} connect error, err: dial tcp 192.168.31.2:9200: connect: connection refused"}
+{"level":"INFO","time":"2020-06-25T12:56:56.367+0800","caller":"collector/core.go:51","msg":"&{127.0.0.4 3306 mysql-test4 false 2020-06-25 12:56:56.330772 +0800 CST m=+16.050630728 MySQL} connect error, err: dial tcp 127.0.0.4:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:56:56.376+0800","caller":"collector/core.go:51","msg":"&{192.168.31.3 9200 warm-2 false 2020-06-25 12:56:56.330769 +0800 CST m=+16.050627093 ElasticSearch} connect error, err: dial tcp 192.168.31.3:9200: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:56:56.391+0800","caller":"collector/core.go:51","msg":"&{127.0.0.5 3306 mysql-test5 false 2020-06-25 12:56:56.354335 +0800 CST m=+16.074193754 MySQL} connect error, err: dial tcp 127.0.0.5:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:56:56.398+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test2 false 2020-06-25 12:56:56.357784 +0800 CST m=+16.077642623 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:56:56.401+0800","caller":"collector/core.go:51","msg":"&{127.0.0.6 3306 mysql-test6 false 2020-06-25 12:56:56.358709 +0800 CST m=+16.078567561 MySQL} connect error, err: dial tcp 127.0.0.6:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:56:56.404+0800","caller":"collector/core.go:51","msg":"&{192.168.31.4 9200 warm-3 false 2020-06-25 12:56:56.356775 +0800 CST m=+16.076632976 ElasticSearch} connect error, err: dial tcp 192.168.31.4:9200: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:56:56.407+0800","caller":"collector/core.go:51","msg":"&{192.168.32.21 9092 kafka-1 false 2020-06-25 12:56:56.364526 +0800 CST m=+16.084384177 Kafka} connect error, err: dial tcp 192.168.32.21:9092: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:56:56.409+0800","caller":"collector/core.go:51","msg":"&{192.168.32.31 9092 kafka-2 false 2020-06-25 12:56:56.362818 +0800 CST m=+16.082676785 Kafka} connect error, err: dial tcp 192.168.32.31:9092: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:56:56.410+0800","caller":"collector/core.go:51","msg":"&{127.0.0.3 3306 mysql-test3 false 2020-06-25 12:56:56.358356 +0800 CST m=+16.078214394 MySQL} connect error, err: dial tcp 127.0.0.3:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:56:56.414+0800","caller":"collector/core.go:51","msg":"&{192.168.32.41 9092 kafka-3 false 2020-06-25 12:56:56.380169 +0800 CST m=+16.100027461 Kafka} connect error, err: dial tcp 192.168.32.41:9092: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:57:00.418+0800","caller":"collector/core.go:51","msg":"&{192.168.31.2 9200 warm-1 false 2020-06-25 12:57:00.404304 +0800 CST m=+20.124166485 ElasticSearch} connect error, err: dial tcp 192.168.31.2:9200: connect: connection refused"}
+{"level":"INFO","time":"2020-06-25T12:57:00.419+0800","caller":"collector/core.go:61","msg":"&{localhost 3306 mysql-test1 true 2020-06-25 12:57:00.407619 +0800 CST m=+20.127481332 MySQL} connect success"}
+{"level":"INFO","time":"2020-06-25T12:57:06.428+0800","caller":"collector/core.go:51","msg":"&{192.168.31.4 9200 warm-3 false 2020-06-25 12:57:06.406252 +0800 CST m=+26.126120062 ElasticSearch} connect error, err: dial tcp 192.168.31.4:9200: connect: host is down"}
+{"level":"INFO","time":"2020-06-25T12:57:06.429+0800","caller":"collector/core.go:51","msg":"&{192.168.31.3 9200 warm-2 false 2020-06-25 12:57:06.405751 +0800 CST m=+26.125618890 ElasticSearch} connect error, err: dial tcp 192.168.31.3:9200: connect: host is down"}
+{"level":"INFO","time":"2020-06-25T12:57:09.421+0800","caller":"collector/core.go:51","msg":"&{127.0.0.4 3306 mysql-test4 false 2020-06-25 12:57:09.371931 +0800 CST m=+29.091801747 MySQL} connect error, err: dial tcp 127.0.0.4:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:57:09.434+0800","caller":"collector/core.go:51","msg":"&{127.0.0.5 3306 mysql-test5 false 2020-06-25 12:57:09.398949 +0800 CST m=+29.118819098 MySQL} connect error, err: dial tcp 127.0.0.5:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:57:09.437+0800","caller":"collector/core.go:51","msg":"&{192.168.32.41 9092 kafka-3 false 2020-06-25 12:57:09.415395 +0800 CST m=+29.135265821 Kafka} connect error, err: dial tcp 192.168.32.41:9092: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:57:09.440+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test2 false 2020-06-25 12:57:09.404036 +0800 CST m=+29.123906241 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:57:09.443+0800","caller":"collector/core.go:51","msg":"&{127.0.0.6 3306 mysql-test6 false 2020-06-25 12:57:09.401909 +0800 CST m=+29.121779191 MySQL} connect error, err: dial tcp 127.0.0.6:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:57:09.445+0800","caller":"collector/core.go:51","msg":"&{192.168.32.21 9092 kafka-1 false 2020-06-25 12:57:09.407942 +0800 CST m=+29.127812409 Kafka} connect error, err: dial tcp 192.168.32.21:9092: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:57:09.469+0800","caller":"collector/core.go:51","msg":"&{127.0.0.3 3306 mysql-test3 false 2020-06-25 12:57:09.412216 +0800 CST m=+29.132086370 MySQL} connect error, err: dial tcp 127.0.0.3:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:57:09.471+0800","caller":"collector/core.go:51","msg":"&{192.168.32.31 9092 kafka-2 false 2020-06-25 12:57:09.411708 +0800 CST m=+29.131578795 Kafka} connect error, err: dial tcp 192.168.32.31:9092: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:57:10.477+0800","caller":"collector/core.go:51","msg":"&{192.168.31.2 9200 warm-1 false 2020-06-25 12:57:10.454732 +0800 CST m=+30.174602965 ElasticSearch} connect error, err: dial tcp 192.168.31.2:9200: connect: connection refused"}
+{"level":"INFO","time":"2020-06-25T12:57:10.477+0800","caller":"collector/core.go:61","msg":"&{localhost 3306 mysql-test1 true 2020-06-25 12:57:10.458426 +0800 CST m=+30.178297475 MySQL} connect success"}
+{"level":"INFO","time":"2020-06-25T12:57:19.468+0800","caller":"collector/core.go:51","msg":"&{192.168.31.3 9200 warm-2 false 2020-06-25 12:57:19.43634 +0800 CST m=+39.156219403 ElasticSearch} connect error, err: dial tcp 192.168.31.3:9200: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:57:19.475+0800","caller":"collector/core.go:51","msg":"&{192.168.31.4 9200 warm-3 false 2020-06-25 12:57:19.436335 +0800 CST m=+39.156214670 ElasticSearch} connect error, err: dial tcp 192.168.31.4:9200: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:57:20.517+0800","caller":"collector/core.go:51","msg":"&{192.168.31.2 9200 warm-1 false 2020-06-25 12:57:20.504385 +0800 CST m=+40.224265349 ElasticSearch} connect error, err: dial tcp 192.168.31.2:9200: connect: connection refused"}
+{"level":"INFO","time":"2020-06-25T12:57:20.518+0800","caller":"collector/core.go:61","msg":"&{localhost 3306 mysql-test1 true 2020-06-25 12:57:20.507001 +0800 CST m=+40.226881580 MySQL} connect success"}
+{"level":"INFO","time":"2020-06-25T12:57:22.468+0800","caller":"collector/core.go:51","msg":"&{127.0.0.4 3306 mysql-test4 false 2020-06-25 12:57:22.428677 +0800 CST m=+42.148559611 MySQL} connect error, err: dial tcp 127.0.0.4:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:57:22.472+0800","caller":"collector/core.go:51","msg":"&{127.0.0.5 3306 mysql-test5 false 2020-06-25 12:57:22.441743 +0800 CST m=+42.161625748 MySQL} connect error, err: dial tcp 127.0.0.5:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:57:22.496+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test2 false 2020-06-25 12:57:22.441746 +0800 CST m=+42.161628876 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:57:22.497+0800","caller":"collector/core.go:51","msg":"&{192.168.32.41 9092 kafka-3 false 2020-06-25 12:57:22.441745 +0800 CST m=+42.161627135 Kafka} connect error, err: dial tcp 192.168.32.41:9092: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:57:22.497+0800","caller":"collector/core.go:51","msg":"&{127.0.0.6 3306 mysql-test6 false 2020-06-25 12:57:22.445161 +0800 CST m=+42.165043630 MySQL} connect error, err: dial tcp 127.0.0.6:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:57:22.500+0800","caller":"collector/core.go:51","msg":"&{192.168.32.21 9092 kafka-1 false 2020-06-25 12:57:22.445617 +0800 CST m=+42.165498986 Kafka} connect error, err: dial tcp 192.168.32.21:9092: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:57:22.515+0800","caller":"collector/core.go:51","msg":"&{192.168.32.31 9092 kafka-2 false 2020-06-25 12:57:22.478553 +0800 CST m=+42.198435814 Kafka} connect error, err: dial tcp 192.168.32.31:9092: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:57:22.515+0800","caller":"collector/core.go:51","msg":"&{127.0.0.3 3306 mysql-test3 false 2020-06-25 12:57:22.478633 +0800 CST m=+42.198515438 MySQL} connect error, err: dial tcp 127.0.0.3:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:57:30.571+0800","caller":"collector/core.go:61","msg":"&{localhost 3306 mysql-test1 true 2020-06-25 12:57:30.557579 +0800 CST m=+50.277468838 MySQL} connect success"}
+{"level":"INFO","time":"2020-06-25T12:57:30.576+0800","caller":"collector/core.go:51","msg":"&{192.168.31.2 9200 warm-1 false 2020-06-25 12:57:30.55479 +0800 CST m=+50.274680511 ElasticSearch} connect error, err: dial tcp 192.168.31.2:9200: connect: connection refused"}
+{"level":"INFO","time":"2020-06-25T12:57:32.516+0800","caller":"collector/core.go:51","msg":"&{192.168.31.4 9200 warm-3 false 2020-06-25 12:57:32.47728 +0800 CST m=+52.197171678 ElasticSearch} connect error, err: dial tcp 192.168.31.4:9200: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:57:32.518+0800","caller":"collector/core.go:51","msg":"&{192.168.31.3 9200 warm-2 false 2020-06-25 12:57:32.475144 +0800 CST m=+52.195035591 ElasticSearch} connect error, err: dial tcp 192.168.31.3:9200: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:57:35.525+0800","caller":"collector/core.go:51","msg":"&{127.0.0.4 3306 mysql-test4 false 2020-06-25 12:57:35.477407 +0800 CST m=+55.197301781 MySQL} connect error, err: dial tcp 127.0.0.4:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:57:35.525+0800","caller":"collector/core.go:51","msg":"&{127.0.0.5 3306 mysql-test5 false 2020-06-25 12:57:35.477392 +0800 CST m=+55.197286717 MySQL} connect error, err: dial tcp 127.0.0.5:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:57:35.537+0800","caller":"collector/core.go:51","msg":"&{192.168.32.41 9092 kafka-3 false 2020-06-25 12:57:35.503768 +0800 CST m=+55.223662157 Kafka} connect error, err: dial tcp 192.168.32.41:9092: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:57:35.540+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test2 false 2020-06-25 12:57:35.503775 +0800 CST m=+55.223670050 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:57:35.541+0800","caller":"collector/core.go:51","msg":"&{127.0.0.6 3306 mysql-test6 false 2020-06-25 12:57:35.503748 +0800 CST m=+55.223642506 MySQL} connect error, err: dial tcp 127.0.0.6:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:57:35.541+0800","caller":"collector/core.go:51","msg":"&{192.168.32.21 9092 kafka-1 false 2020-06-25 12:57:35.503769 +0800 CST m=+55.223663562 Kafka} connect error, err: dial tcp 192.168.32.21:9092: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:57:35.563+0800","caller":"collector/core.go:51","msg":"&{192.168.32.31 9092 kafka-2 false 2020-06-25 12:57:35.522484 +0800 CST m=+55.242378757 Kafka} connect error, err: dial tcp 192.168.32.31:9092: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:57:35.564+0800","caller":"collector/core.go:51","msg":"&{127.0.0.3 3306 mysql-test3 false 2020-06-25 12:57:35.522492 +0800 CST m=+55.242386788 MySQL} connect error, err: dial tcp 127.0.0.3:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:57:40.615+0800","caller":"collector/core.go:51","msg":"&{192.168.31.2 9200 warm-1 false 2020-06-25 12:57:40.604177 +0800 CST m=+60.324076684 ElasticSearch} connect error, err: dial tcp 192.168.31.2:9200: connect: connection refused"}
+{"level":"INFO","time":"2020-06-25T12:57:40.617+0800","caller":"collector/core.go:61","msg":"&{localhost 3306 mysql-test1 true 2020-06-25 12:57:40.606711 +0800 CST m=+60.326610710 MySQL} connect success"}
+{"level":"INFO","time":"2020-06-25T12:57:42.563+0800","caller":"collector/core.go:51","msg":"&{192.168.31.4 9200 warm-3 false 2020-06-25 12:57:42.554161 +0800 CST m=+62.274061770 ElasticSearch} connect error, err: dial tcp 192.168.31.4:9200: connect: host is down"}
+{"level":"INFO","time":"2020-06-25T12:57:42.564+0800","caller":"collector/core.go:51","msg":"&{192.168.31.3 9200 warm-2 false 2020-06-25 12:57:42.554537 +0800 CST m=+62.274438374 ElasticSearch} connect error, err: dial tcp 192.168.31.3:9200: connect: host is down"}
+{"level":"INFO","time":"2020-06-25T12:57:48.569+0800","caller":"collector/core.go:51","msg":"&{127.0.0.5 3306 mysql-test5 false 2020-06-25 12:57:48.529905 +0800 CST m=+68.249811731 MySQL} connect error, err: dial tcp 127.0.0.5:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:57:48.577+0800","caller":"collector/core.go:51","msg":"&{127.0.0.4 3306 mysql-test4 false 2020-06-25 12:57:48.529886 +0800 CST m=+68.249792644 MySQL} connect error, err: dial tcp 127.0.0.4:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:57:48.585+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test2 false 2020-06-25 12:57:48.541241 +0800 CST m=+68.261147775 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:57:48.589+0800","caller":"collector/core.go:51","msg":"&{127.0.0.6 3306 mysql-test6 false 2020-06-25 12:57:48.542201 +0800 CST m=+68.262107915 MySQL} connect error, err: dial tcp 127.0.0.6:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:57:48.591+0800","caller":"collector/core.go:51","msg":"&{192.168.32.41 9092 kafka-3 false 2020-06-25 12:57:48.540001 +0800 CST m=+68.259907802 Kafka} connect error, err: dial tcp 192.168.32.41:9092: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:57:48.591+0800","caller":"collector/core.go:51","msg":"&{192.168.32.21 9092 kafka-1 false 2020-06-25 12:57:48.546947 +0800 CST m=+68.266853492 Kafka} connect error, err: dial tcp 192.168.32.21:9092: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:57:48.611+0800","caller":"collector/core.go:51","msg":"&{192.168.32.31 9092 kafka-2 false 2020-06-25 12:57:48.571515 +0800 CST m=+68.291421638 Kafka} connect error, err: dial tcp 192.168.32.31:9092: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:57:48.611+0800","caller":"collector/core.go:51","msg":"&{127.0.0.3 3306 mysql-test3 false 2020-06-25 12:57:48.571494 +0800 CST m=+68.291400212 MySQL} connect error, err: dial tcp 127.0.0.3:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:57:50.672+0800","caller":"collector/core.go:51","msg":"&{192.168.31.2 9200 warm-1 false 2020-06-25 12:57:50.654251 +0800 CST m=+70.374159297 ElasticSearch} connect error, err: dial tcp 192.168.31.2:9200: connect: connection refused"}
+{"level":"INFO","time":"2020-06-25T12:57:50.675+0800","caller":"collector/core.go:61","msg":"&{localhost 3306 mysql-test1 true 2020-06-25 12:57:50.658848 +0800 CST m=+70.378757101 MySQL} connect success"}
+{"level":"INFO","time":"2020-06-25T12:57:55.613+0800","caller":"collector/core.go:51","msg":"&{192.168.31.3 9200 warm-2 false 2020-06-25 12:57:55.573588 +0800 CST m=+75.293501264 ElasticSearch} connect error, err: dial tcp 192.168.31.3:9200: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:57:55.613+0800","caller":"collector/core.go:51","msg":"&{192.168.31.4 9200 warm-3 false 2020-06-25 12:57:55.573565 +0800 CST m=+75.293478451 ElasticSearch} connect error, err: dial tcp 192.168.31.4:9200: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:58:00.716+0800","caller":"collector/core.go:51","msg":"&{192.168.31.2 9200 warm-1 false 2020-06-25 12:58:00.704901 +0800 CST m=+80.424818664 ElasticSearch} connect error, err: dial tcp 192.168.31.2:9200: connect: connection refused"}
+{"level":"INFO","time":"2020-06-25T12:58:00.717+0800","caller":"collector/core.go:61","msg":"&{localhost 3306 mysql-test1 true 2020-06-25 12:58:00.707308 +0800 CST m=+80.427226281 MySQL} connect success"}
+{"level":"INFO","time":"2020-06-25T12:58:01.621+0800","caller":"collector/core.go:51","msg":"&{127.0.0.4 3306 mysql-test4 false 2020-06-25 12:58:01.584703 +0800 CST m=+81.304622222 MySQL} connect error, err: dial tcp 127.0.0.4:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:58:01.623+0800","caller":"collector/core.go:51","msg":"&{127.0.0.5 3306 mysql-test5 false 2020-06-25 12:58:01.575635 +0800 CST m=+81.295553457 MySQL} connect error, err: dial tcp 127.0.0.5:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:58:01.671+0800","caller":"collector/core.go:51","msg":"&{192.168.32.21 9092 kafka-1 false 2020-06-25 12:58:01.593696 +0800 CST m=+81.313614826 Kafka} connect error, err: dial tcp 192.168.32.21:9092: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:58:01.690+0800","caller":"collector/core.go:51","msg":"&{127.0.0.2 3306 mysql-test2 false 2020-06-25 12:58:01.5917 +0800 CST m=+81.311619048 MySQL} connect error, err: dial tcp 127.0.0.2:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:58:01.695+0800","caller":"collector/core.go:51","msg":"&{127.0.0.6 3306 mysql-test6 false 2020-06-25 12:58:01.594338 +0800 CST m=+81.314256800 MySQL} connect error, err: dial tcp 127.0.0.6:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:58:01.695+0800","caller":"collector/core.go:51","msg":"&{192.168.32.41 9092 kafka-3 false 2020-06-25 12:58:01.596254 +0800 CST m=+81.316173310 Kafka} connect error, err: dial tcp 192.168.32.41:9092: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:58:01.720+0800","caller":"collector/core.go:51","msg":"&{192.168.32.31 9092 kafka-2 false 2020-06-25 12:58:01.617003 +0800 CST m=+81.336921369 Kafka} connect error, err: dial tcp 192.168.32.31:9092: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:58:01.725+0800","caller":"collector/core.go:51","msg":"&{127.0.0.3 3306 mysql-test3 false 2020-06-25 12:58:01.617325 +0800 CST m=+81.337243981 MySQL} connect error, err: dial tcp 127.0.0.3:3306: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:58:08.665+0800","caller":"collector/core.go:51","msg":"&{192.168.31.3 9200 warm-2 false 2020-06-25 12:58:08.620505 +0800 CST m=+88.340430706 ElasticSearch} connect error, err: dial tcp 192.168.31.3:9200: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:58:08.666+0800","caller":"collector/core.go:51","msg":"&{192.168.31.4 9200 warm-3 false 2020-06-25 12:58:08.620738 +0800 CST m=+88.340663543 ElasticSearch} connect error, err: dial tcp 192.168.31.4:9200: i/o timeout"}
+{"level":"INFO","time":"2020-06-25T12:58:10.768+0800","caller":"collector/core.go:51","msg":"&{192.168.31.2 9200 warm-1 false 2020-06-25 12:58:10.75466 +0800 CST m=+90.474587141 ElasticSearch} connect error, err: dial tcp 192.168.31.2:9200: connect: connection refused"}
+{"level":"INFO","time":"2020-06-25T12:58:10.769+0800","caller":"collector/core.go:61","msg":"&{localhost 3306 mysql-test1 true 2020-06-25 12:58:10.757052 +0800 CST m=+90.476981897 MySQL} connect success"}
+{"level":"INFO","time":"2020-06-25T13:00:47.083+0800","caller":"collector/core.go:52","msg":"warm-1 connect error"}
+{"level":"INFO","time":"2020-06-25T13:00:47.114+0800","caller":"collector/core.go:63","msg":"mysql-test1 connect success"}
+{"level":"INFO","time":"2020-06-25T13:00:50.076+0800","caller":"collector/core.go:52","msg":"kafka-2 connect error"}
+{"level":"INFO","time":"2020-06-25T13:00:50.087+0800","caller":"collector/core.go:52","msg":"warm-3 connect error"}
+{"level":"INFO","time":"2020-06-25T13:00:50.116+0800","caller":"collector/core.go:52","msg":"mysql-test4 connect error"}
+{"level":"INFO","time":"2020-06-25T13:00:50.124+0800","caller":"collector/core.go:52","msg":"kafka-1 connect error"}
+{"level":"INFO","time":"2020-06-25T13:00:50.138+0800","caller":"collector/core.go:52","msg":"mysql-test2 connect error"}
+{"level":"INFO","time":"2020-06-25T13:00:50.139+0800","caller":"collector/core.go:52","msg":"mysql-test6 connect error"}
+{"level":"INFO","time":"2020-06-25T13:00:50.140+0800","caller":"collector/core.go:52","msg":"mysql-test3 connect error"}
+{"level":"INFO","time":"2020-06-25T13:00:50.143+0800","caller":"collector/core.go:52","msg":"kafka-3 connect error"}
+{"level":"INFO","time":"2020-06-25T13:00:50.144+0800","caller":"collector/core.go:52","msg":"mysql-test5 connect error"}
+{"level":"INFO","time":"2020-06-25T13:00:50.146+0800","caller":"collector/core.go:52","msg":"warm-2 connect error"}
+{"level":"INFO","time":"2020-06-25T13:00:57.112+0800","caller":"collector/core.go:52","msg":"warm-1 connect error"}
+{"level":"INFO","time":"2020-06-25T13:00:57.163+0800","caller":"collector/core.go:63","msg":"mysql-test1 connect success"}
+{"level":"INFO","time":"2020-06-25T13:01:03.119+0800","caller":"collector/core.go:52","msg":"kafka-2 connect error"}
+{"level":"INFO","time":"2020-06-25T13:01:03.120+0800","caller":"collector/core.go:52","msg":"warm-3 connect error"}
+{"level":"INFO","time":"2020-06-25T13:01:03.164+0800","caller":"collector/core.go:52","msg":"kafka-1 connect error"}
+{"level":"INFO","time":"2020-06-25T13:01:03.165+0800","caller":"collector/core.go:52","msg":"mysql-test4 connect error"}
+{"level":"INFO","time":"2020-06-25T13:01:03.181+0800","caller":"collector/core.go:52","msg":"mysql-test3 connect error"}
+{"level":"INFO","time":"2020-06-25T13:01:03.181+0800","caller":"collector/core.go:52","msg":"warm-2 connect error"}
+{"level":"INFO","time":"2020-06-25T13:01:03.184+0800","caller":"collector/core.go:52","msg":"mysql-test5 connect error"}
+{"level":"INFO","time":"2020-06-25T13:01:03.186+0800","caller":"collector/core.go:52","msg":"mysql-test2 connect error"}
+{"level":"INFO","time":"2020-06-25T13:01:03.188+0800","caller":"collector/core.go:52","msg":"mysql-test6 connect error"}
+{"level":"INFO","time":"2020-06-25T13:01:03.190+0800","caller":"collector/core.go:52","msg":"kafka-3 connect error"}
+{"level":"INFO","time":"2020-06-25T13:01:07.127+0800","caller":"collector/core.go:52","msg":"warm-1 connect error"}
+{"level":"INFO","time":"2020-06-25T13:01:07.212+0800","caller":"collector/core.go:63","msg":"mysql-test1 connect success"}
+{"level":"INFO","time":"2020-06-25T13:01:13.162+0800","caller":"collector/core.go:52","msg":"warm-3 connect error"}
+{"level":"INFO","time":"2020-06-25T13:01:13.210+0800","caller":"collector/core.go:52","msg":"warm-2 connect error"}
+{"level":"INFO","time":"2020-06-25T13:01:16.163+0800","caller":"collector/core.go:52","msg":"kafka-2 connect error"}
+{"level":"INFO","time":"2020-06-25T13:01:16.218+0800","caller":"collector/core.go:52","msg":"mysql-test4 connect error"}
+{"level":"INFO","time":"2020-06-25T13:01:16.220+0800","caller":"collector/core.go:52","msg":"kafka-1 connect error"}
+{"level":"INFO","time":"2020-06-25T13:01:16.244+0800","caller":"collector/core.go:52","msg":"kafka-3 connect error"}
+{"level":"INFO","time":"2020-06-25T13:01:16.244+0800","caller":"collector/core.go:52","msg":"mysql-test5 connect error"}
+{"level":"INFO","time":"2020-06-25T13:01:16.245+0800","caller":"collector/core.go:52","msg":"mysql-test6 connect error"}
+{"level":"INFO","time":"2020-06-25T13:01:16.246+0800","caller":"collector/core.go:52","msg":"mysql-test3 connect error"}
+{"level":"INFO","time":"2020-06-25T13:01:16.250+0800","caller":"collector/core.go:52","msg":"mysql-test2 connect error"}
+{"level":"INFO","time":"2020-06-25T13:01:17.167+0800","caller":"collector/core.go:52","msg":"warm-1 connect error"}
+{"level":"INFO","time":"2020-06-25T13:01:17.261+0800","caller":"collector/core.go:63","msg":"mysql-test1 connect success"}
+{"level":"INFO","time":"2020-06-25T13:01:26.212+0800","caller":"collector/core.go:52","msg":"warm-3 connect error"}
+{"level":"INFO","time":"2020-06-25T13:01:26.261+0800","caller":"collector/core.go:52","msg":"warm-2 connect error"}
+{"level":"INFO","time":"2020-06-25T13:01:27.222+0800","caller":"collector/core.go:52","msg":"warm-1 connect error"}
+{"level":"INFO","time":"2020-06-25T13:01:27.275+0800","caller":"collector/core.go:63","msg":"mysql-test1 connect success"}
+{"level":"ERROR","time":"2020-06-25T13:09:20.404+0800","caller":"collector/core.go:48","msg":"request http error, err: Post http://127.0.0.1:8080/api/v1/monitor/tcp?token=AeZmOUaO-oVlRmeGtHK539xXt4nfh6DSCnVArRq-41M: dial tcp 127.0.0.1:8080: connect: connection refused"}
+{"level":"ERROR","time":"2020-06-25T13:09:20.406+0800","caller":"collector/core.go:59","msg":"request http error, err: Post http://127.0.0.1:8080/api/v1/monitor/tcp?token=AeZmOUaO-oVlRmeGtHK539xXt4nfh6DSCnVArRq-41M: dial tcp 127.0.0.1:8080: connect: connection refused"}
+{"level":"ERROR","time":"2020-06-25T13:09:23.403+0800","caller":"collector/core.go:48","msg":"request http error, err: Post http://127.0.0.1:8080/api/v1/monitor/tcp?token=AeZmOUaO-oVlRmeGtHK539xXt4nfh6DSCnVArRq-41M: dial tcp 127.0.0.1:8080: connect: connection refused"}
+{"level":"ERROR","time":"2020-06-25T13:09:23.403+0800","caller":"collector/core.go:48","msg":"request http error, err: Post http://127.0.0.1:8080/api/v1/monitor/tcp?token=AeZmOUaO-oVlRmeGtHK539xXt4nfh6DSCnVArRq-41M: dial tcp 127.0.0.1:8080: connect: connection refused"}
+{"level":"ERROR","time":"2020-06-25T13:09:23.403+0800","caller":"collector/core.go:48","msg":"request http error, err: Post http://127.0.0.1:8080/api/v1/monitor/tcp?token=AeZmOUaO-oVlRmeGtHK539xXt4nfh6DSCnVArRq-41M: dial tcp 127.0.0.1:8080: connect: connection refused"}
+{"level":"ERROR","time":"2020-06-25T13:09:23.404+0800","caller":"collector/core.go:48","msg":"request http error, err: Post http://127.0.0.1:8080/api/v1/monitor/tcp?token=AeZmOUaO-oVlRmeGtHK539xXt4nfh6DSCnVArRq-41M: dial tcp 127.0.0.1:8080: connect: connection refused"}
+{"level":"ERROR","time":"2020-06-25T13:09:23.404+0800","caller":"collector/core.go:48","msg":"request http error, err: Post http://127.0.0.1:8080/api/v1/monitor/tcp?token=AeZmOUaO-oVlRmeGtHK539xXt4nfh6DSCnVArRq-41M: dial tcp 127.0.0.1:8080: connect: connection refused"}
+{"level":"ERROR","time":"2020-06-25T13:09:23.404+0800","caller":"collector/core.go:48","msg":"request http error, err: Post http://127.0.0.1:8080/api/v1/monitor/tcp?token=AeZmOUaO-oVlRmeGtHK539xXt4nfh6DSCnVArRq-41M: dial tcp 127.0.0.1:8080: connect: connection refused"}
+{"level":"ERROR","time":"2020-06-25T13:09:23.405+0800","caller":"collector/core.go:48","msg":"request http error, err: Post http://127.0.0.1:8080/api/v1/monitor/tcp?token=AeZmOUaO-oVlRmeGtHK539xXt4nfh6DSCnVArRq-41M: dial tcp 127.0.0.1:8080: connect: connection refused"}
+{"level":"ERROR","time":"2020-06-25T13:09:23.405+0800","caller":"collector/core.go:48","msg":"request http error, err: Post http://127.0.0.1:8080/api/v1/monitor/tcp?token=AeZmOUaO-oVlRmeGtHK539xXt4nfh6DSCnVArRq-41M: dial tcp 127.0.0.1:8080: connect: connection refused"}
+{"level":"ERROR","time":"2020-06-25T13:09:23.406+0800","caller":"collector/core.go:48","msg":"request http error, err: Post http://127.0.0.1:8080/api/v1/monitor/tcp?token=AeZmOUaO-oVlRmeGtHK539xXt4nfh6DSCnVArRq-41M: dial tcp 127.0.0.1:8080: connect: connection refused"}
+{"level":"ERROR","time":"2020-06-25T13:09:23.406+0800","caller":"collector/core.go:48","msg":"request http error, err: Post http://127.0.0.1:8080/api/v1/monitor/tcp?token=AeZmOUaO-oVlRmeGtHK539xXt4nfh6DSCnVArRq-41M: dial tcp 127.0.0.1:8080: connect: connection refused"}
+{"level":"INFO","time":"2020-06-25T13:09:51.869+0800","caller":"collector/core.go:52","msg":"warm-1 connect error"}
+{"level":"INFO","time":"2020-06-25T13:09:51.877+0800","caller":"collector/core.go:63","msg":"mysql-test1 connect success"}
+{"level":"INFO","time":"2020-06-25T13:09:54.880+0800","caller":"collector/core.go:52","msg":"kafka-1 connect error"}
+{"level":"INFO","time":"2020-06-25T13:09:54.898+0800","caller":"collector/core.go:52","msg":"mysql-test4 connect error"}
+{"level":"INFO","time":"2020-06-25T13:09:54.900+0800","caller":"collector/core.go:52","msg":"mysql-test2 connect error"}
+{"level":"INFO","time":"2020-06-25T13:09:54.900+0800","caller":"collector/core.go:52","msg":"mysql-test6 connect error"}
+{"level":"INFO","time":"2020-06-25T13:09:54.904+0800","caller":"collector/core.go:52","msg":"warm-2 connect error"}
+{"level":"INFO","time":"2020-06-25T13:09:54.905+0800","caller":"collector/core.go:52","msg":"warm-3 connect error"}
+{"level":"INFO","time":"2020-06-25T13:09:54.905+0800","caller":"collector/core.go:52","msg":"kafka-2 connect error"}
+{"level":"INFO","time":"2020-06-25T13:09:54.905+0800","caller":"collector/core.go:52","msg":"mysql-test3 connect error"}
+{"level":"INFO","time":"2020-06-25T13:09:54.905+0800","caller":"collector/core.go:52","msg":"mysql-test5 connect error"}
+{"level":"INFO","time":"2020-06-25T13:09:54.927+0800","caller":"collector/core.go:52","msg":"kafka-3 connect error"}
+{"level":"INFO","time":"2020-06-25T13:10:01.919+0800","caller":"collector/core.go:52","msg":"warm-1 connect error"}
+{"level":"INFO","time":"2020-06-25T13:10:01.920+0800","caller":"collector/core.go:63","msg":"mysql-test1 connect success"}
+{"level":"INFO","time":"2020-06-25T13:10:07.912+0800","caller":"collector/core.go:52","msg":"kafka-1 connect error"}
+{"level":"INFO","time":"2020-06-25T13:10:07.919+0800","caller":"collector/core.go:52","msg":"mysql-test6 connect error"}
+{"level":"INFO","time":"2020-06-25T13:10:07.928+0800","caller":"collector/core.go:52","msg":"mysql-test4 connect error"}
+{"level":"INFO","time":"2020-06-25T13:10:07.937+0800","caller":"collector/core.go:52","msg":"mysql-test2 connect error"}
+{"level":"INFO","time":"2020-06-25T13:10:07.938+0800","caller":"collector/core.go:52","msg":"kafka-2 connect error"}
+{"level":"INFO","time":"2020-06-25T13:10:07.940+0800","caller":"collector/core.go:52","msg":"warm-2 connect error"}
+{"level":"INFO","time":"2020-06-25T13:10:07.970+0800","caller":"collector/core.go:52","msg":"mysql-test3 connect error"}
+{"level":"INFO","time":"2020-06-25T13:10:07.970+0800","caller":"collector/core.go:52","msg":"kafka-3 connect error"}
+{"level":"INFO","time":"2020-06-25T13:10:07.981+0800","caller":"collector/core.go:52","msg":"mysql-test5 connect error"}
+{"level":"INFO","time":"2020-06-25T13:10:07.983+0800","caller":"collector/core.go:52","msg":"warm-3 connect error"}
+{"level":"INFO","time":"2020-06-25T13:10:11.964+0800","caller":"collector/core.go:52","msg":"warm-1 connect error"}
+{"level":"INFO","time":"2020-06-25T13:10:11.965+0800","caller":"collector/core.go:63","msg":"mysql-test1 connect success"}
+{"level":"INFO","time":"2020-06-25T13:10:46.024+0800","caller":"collector/core.go:52","msg":"warm-1 connect error"}
+{"level":"INFO","time":"2020-06-25T15:06:08.567+0800","caller":"collector/core.go:52","msg":"warm-1 connect error"}
+{"level":"INFO","time":"2020-06-25T15:06:08.569+0800","caller":"collector/core.go:63","msg":"mysql-test1 connect success"}
+{"level":"INFO","time":"2020-06-25T15:06:11.565+0800","caller":"collector/core.go:52","msg":"kubernetes-node-1 connect error"}
+{"level":"INFO","time":"2020-06-25T15:06:11.569+0800","caller":"collector/core.go:52","msg":"kafka-2 connect error"}
+{"level":"INFO","time":"2020-06-25T15:06:11.586+0800","caller":"collector/core.go:52","msg":"warm-2 connect error"}
+{"level":"INFO","time":"2020-06-25T15:06:11.588+0800","caller":"collector/core.go:52","msg":"kafka-1 connect error"}
+{"level":"INFO","time":"2020-06-25T15:06:11.591+0800","caller":"collector/core.go:52","msg":"warm-3 connect error"}
+{"level":"INFO","time":"2020-06-25T15:06:11.621+0800","caller":"collector/core.go:52","msg":"mysql-test6 connect error"}
+{"level":"INFO","time":"2020-06-25T15:06:11.626+0800","caller":"collector/core.go:52","msg":"kubernetes-node-2 connect error"}
+{"level":"INFO","time":"2020-06-25T15:06:11.627+0800","caller":"collector/core.go:52","msg":"mysql-test4 connect error"}
+{"level":"INFO","time":"2020-06-25T15:06:11.628+0800","caller":"collector/core.go:52","msg":"mysql-test3 connect error"}
+{"level":"INFO","time":"2020-06-25T15:06:11.630+0800","caller":"collector/core.go:52","msg":"mysql-test5 connect error"}
+{"level":"INFO","time":"2020-06-25T15:06:11.630+0800","caller":"collector/core.go:52","msg":"mysql-test2 connect error"}
+{"level":"INFO","time":"2020-06-25T15:06:11.662+0800","caller":"collector/core.go:52","msg":"kubernetes-master-1 connect error"}
+{"level":"INFO","time":"2020-06-25T15:06:11.669+0800","caller":"collector/core.go:52","msg":"kafka-3 connect error"}
+{"level":"INFO","time":"2020-06-25T15:06:18.615+0800","caller":"collector/core.go:63","msg":"mysql-test1 connect success"}
+{"level":"INFO","time":"2020-06-25T15:06:18.618+0800","caller":"collector/core.go:52","msg":"warm-1 connect error"}
+{"level":"INFO","time":"2020-06-25T15:06:24.624+0800","caller":"collector/core.go:52","msg":"kubernetes-node-1 connect error"}
+{"level":"INFO","time":"2020-06-25T15:06:24.624+0800","caller":"collector/core.go:52","msg":"warm-2 connect error"}
+{"level":"INFO","time":"2020-06-25T15:06:24.650+0800","caller":"collector/core.go:52","msg":"kafka-1 connect error"}
+{"level":"INFO","time":"2020-06-25T15:06:24.655+0800","caller":"collector/core.go:52","msg":"kafka-2 connect error"}
+{"level":"INFO","time":"2020-06-25T15:06:24.663+0800","caller":"collector/core.go:52","msg":"warm-3 connect error"}
+{"level":"INFO","time":"2020-06-25T15:06:24.719+0800","caller":"collector/core.go:52","msg":"mysql-test4 connect error"}
+{"level":"INFO","time":"2020-06-25T15:06:24.724+0800","caller":"collector/core.go:52","msg":"mysql-test6 connect error"}
+{"level":"INFO","time":"2020-06-25T15:06:24.754+0800","caller":"collector/core.go:52","msg":"mysql-test3 connect error"}
+{"level":"INFO","time":"2020-06-25T15:06:24.756+0800","caller":"collector/core.go:52","msg":"mysql-test5 connect error"}
+{"level":"INFO","time":"2020-06-25T15:06:24.773+0800","caller":"collector/core.go:52","msg":"mysql-test2 connect error"}
+{"level":"INFO","time":"2020-06-25T15:06:24.786+0800","caller":"collector/core.go:52","msg":"kubernetes-node-2 connect error"}
+{"level":"INFO","time":"2020-06-25T15:06:24.792+0800","caller":"collector/core.go:52","msg":"kubernetes-master-1 connect error"}
+{"level":"INFO","time":"2020-06-25T15:06:24.823+0800","caller":"collector/core.go:52","msg":"kafka-3 connect error"}
+{"level":"INFO","time":"2020-06-25T15:06:28.668+0800","caller":"collector/core.go:52","msg":"warm-1 connect error"}
+{"level":"INFO","time":"2020-06-25T15:06:28.674+0800","caller":"collector/core.go:63","msg":"mysql-test1 connect success"}
+{"level":"INFO","time":"2020-06-25T16:09:37.905+0800","caller":"collector/core.go:52","msg":"warm-1 connect error"}
+{"level":"INFO","time":"2020-06-25T16:09:37.907+0800","caller":"collector/core.go:63","msg":"mysql-test1 connect success"}
+{"level":"INFO","time":"2020-06-25T17:16:20.908+0800","caller":"collector/core.go:52","msg":"warm-1 connect error"}
+{"level":"INFO","time":"2020-06-25T17:16:20.944+0800","caller":"collector/core.go:63","msg":"mysql-test1 connect success"}
+{"level":"INFO","time":"2020-06-25T17:16:23.910+0800","caller":"collector/core.go:52","msg":"kafka-1 connect error"}
+{"level":"INFO","time":"2020-06-25T17:16:23.949+0800","caller":"collector/core.go:52","msg":"kafka-3 connect error"}
+{"level":"INFO","time":"2020-06-25T17:16:23.970+0800","caller":"collector/core.go:52","msg":"mysql-test2 connect error"}
+{"level":"INFO","time":"2020-06-25T17:16:23.970+0800","caller":"collector/core.go:52","msg":"mysql-test5 connect error"}
+{"level":"INFO","time":"2020-06-25T17:16:23.972+0800","caller":"collector/core.go:52","msg":"kafka-2 connect error"}
+{"level":"INFO","time":"2020-06-25T17:16:23.981+0800","caller":"collector/core.go:52","msg":"kubernetes-master-1 connect error"}
+{"level":"INFO","time":"2020-06-25T17:16:23.982+0800","caller":"collector/core.go:52","msg":"kubernetes-node-1 connect error"}
+{"level":"INFO","time":"2020-06-25T17:16:24.032+0800","caller":"collector/core.go:52","msg":"mysql-test4 connect error"}
+{"level":"INFO","time":"2020-06-25T17:16:24.033+0800","caller":"collector/core.go:52","msg":"warm-2 connect error"}
+{"level":"INFO","time":"2020-06-25T17:16:24.033+0800","caller":"collector/core.go:52","msg":"warm-3 connect error"}
+{"level":"INFO","time":"2020-06-25T17:16:24.051+0800","caller":"collector/core.go:52","msg":"mysql-test6 connect error"}
+{"level":"INFO","time":"2020-06-25T17:16:24.052+0800","caller":"collector/core.go:52","msg":"mysql-test3 connect error"}
+{"level":"INFO","time":"2020-06-25T17:16:24.057+0800","caller":"collector/core.go:52","msg":"kubernetes-node-2 connect error"}
+{"level":"ERROR","time":"2020-06-25T18:35:53.691+0800","caller":"conf/conf.go:20","msg":"read config error, err: open /Users/heyang/GolandProjects/wisdom-client./config: no such file or directory"}
+{"level":"ERROR","time":"2020-06-25T18:36:18.016+0800","caller":"conf/conf.go:20","msg":"read config error, err: open /Users/heyang/GolandProjects/wisdom-clientconf/config.yaml: no such file or directory"}
+{"level":"ERROR","time":"2020-06-25T18:37:01.480+0800","caller":"conf/conf.go:20","msg":"read config error, err: open ./config: no such file or directory"}
+{"level":"INFO","time":"2020-06-25T18:37:19.855+0800","caller":"collector/core.go:52","msg":"warm-1 connect error"}
+{"level":"INFO","time":"2020-06-25T18:37:19.861+0800","caller":"collector/core.go:63","msg":"mysql-test1 connect success"}
+{"level":"INFO","time":"2020-06-25T18:37:22.859+0800","caller":"collector/core.go:52","msg":"mysql-test2 connect error"}
+{"level":"INFO","time":"2020-06-25T18:37:22.860+0800","caller":"collector/core.go:52","msg":"mysql-test4 connect error"}
+{"level":"INFO","time":"2020-06-25T18:37:22.883+0800","caller":"collector/core.go:52","msg":"warm-3 connect error"}
+{"level":"INFO","time":"2020-06-25T18:37:22.883+0800","caller":"collector/core.go:52","msg":"kubernetes-node-2 connect error"}
+{"level":"INFO","time":"2020-06-25T18:37:22.909+0800","caller":"collector/core.go:52","msg":"kafka-2 connect error"}
+{"level":"INFO","time":"2020-06-25T18:37:22.910+0800","caller":"collector/core.go:52","msg":"mysql-test6 connect error"}
+{"level":"INFO","time":"2020-06-25T18:37:22.926+0800","caller":"collector/core.go:52","msg":"kafka-3 connect error"}
+{"level":"INFO","time":"2020-06-25T18:37:22.926+0800","caller":"collector/core.go:52","msg":"kubernetes-node-1 connect error"}
+{"level":"INFO","time":"2020-06-25T18:37:22.926+0800","caller":"collector/core.go:52","msg":"mysql-test3 connect error"}
+{"level":"INFO","time":"2020-06-25T18:37:22.929+0800","caller":"collector/core.go:52","msg":"mysql-test5 connect error"}
+{"level":"INFO","time":"2020-06-25T18:37:22.932+0800","caller":"collector/core.go:52","msg":"kafka-1 connect error"}
+{"level":"INFO","time":"2020-06-25T18:37:22.933+0800","caller":"collector/core.go:52","msg":"warm-2 connect error"}
+{"level":"INFO","time":"2020-06-25T18:37:22.962+0800","caller":"collector/core.go:52","msg":"kubernetes-master-1 connect error"}
+{"level":"INFO","time":"2020-06-25T18:37:29.902+0800","caller":"collector/core.go:52","msg":"warm-1 connect error"}
+{"level":"INFO","time":"2020-06-25T18:37:29.903+0800","caller":"collector/core.go:63","msg":"mysql-test1 connect success"}
+{"level":"INFO","time":"2020-06-25T18:37:35.909+0800","caller":"collector/core.go:52","msg":"mysql-test2 connect error"}
+{"level":"INFO","time":"2020-06-25T18:37:35.910+0800","caller":"collector/core.go:52","msg":"mysql-test4 connect error"}
+{"level":"INFO","time":"2020-06-25T18:37:35.918+0800","caller":"collector/core.go:52","msg":"warm-3 connect error"}
+{"level":"INFO","time":"2020-06-25T18:37:35.920+0800","caller":"collector/core.go:52","msg":"kubernetes-node-2 connect error"}
+{"level":"INFO","time":"2020-06-25T18:37:35.960+0800","caller":"collector/core.go:52","msg":"kafka-2 connect error"}
+{"level":"INFO","time":"2020-06-25T18:37:35.960+0800","caller":"collector/core.go:52","msg":"warm-2 connect error"}
+{"level":"INFO","time":"2020-06-25T18:37:35.973+0800","caller":"collector/core.go:52","msg":"mysql-test6 connect error"}
+{"level":"INFO","time":"2020-06-25T18:37:35.974+0800","caller":"collector/core.go:52","msg":"kafka-1 connect error"}
+{"level":"INFO","time":"2020-06-25T18:37:35.977+0800","caller":"collector/core.go:52","msg":"kafka-3 connect error"}
+{"level":"INFO","time":"2020-06-25T18:37:35.987+0800","caller":"collector/core.go:52","msg":"kubernetes-node-1 connect error"}
+{"level":"INFO","time":"2020-06-25T18:37:35.987+0800","caller":"collector/core.go:52","msg":"mysql-test3 connect error"}
+{"level":"INFO","time":"2020-06-25T18:37:35.988+0800","caller":"collector/core.go:52","msg":"mysql-test5 connect error"}
+{"level":"INFO","time":"2020-06-25T18:37:35.999+0800","caller":"collector/core.go:52","msg":"kubernetes-master-1 connect error"}
+{"level":"INFO","time":"2020-06-25T18:37:39.956+0800","caller":"collector/core.go:52","msg":"warm-1 connect error"}
+{"level":"INFO","time":"2020-06-25T18:37:39.956+0800","caller":"collector/core.go:63","msg":"mysql-test1 connect success"}
+{"level":"INFO","time":"2020-06-25T18:42:46.848+0800","caller":"collector/collector.go:26","msg":"Start ElasticSearch Monitor Slope"}
+{"level":"INFO","time":"2020-06-25T18:42:46.848+0800","caller":"collector/collector.go:32","msg":"Start Kafka Monitor Slope"}
+{"level":"INFO","time":"2020-06-25T18:42:46.848+0800","caller":"collector/collector.go:20","msg":"Start MySQL Monitor Slope"}
+{"level":"INFO","time":"2020-06-25T18:42:46.848+0800","caller":"collector/collector.go:38","msg":"Start Kubernetes Monitor Slope"}
+{"level":"INFO","time":"2020-06-25T18:42:46.859+0800","caller":"collector/core.go:52","msg":"warm-1 connect error"}
+{"level":"INFO","time":"2020-06-25T18:42:46.898+0800","caller":"collector/core.go:63","msg":"mysql-test1 connect success"}
+{"level":"INFO","time":"2020-06-25T18:42:49.866+0800","caller":"collector/core.go:52","msg":"kafka-3 connect error"}
+{"level":"INFO","time":"2020-06-25T18:42:49.867+0800","caller":"collector/core.go:52","msg":"warm-3 connect error"}
+{"level":"INFO","time":"2020-06-25T18:42:49.903+0800","caller":"collector/core.go:52","msg":"mysql-test3 connect error"}
+{"level":"INFO","time":"2020-06-25T18:42:49.926+0800","caller":"collector/core.go:52","msg":"kubernetes-node-1 connect error"}
+{"level":"INFO","time":"2020-06-25T18:42:49.928+0800","caller":"collector/core.go:52","msg":"mysql-test2 connect error"}
+{"level":"INFO","time":"2020-06-25T18:42:49.930+0800","caller":"collector/core.go:52","msg":"kafka-2 connect error"}
+{"level":"INFO","time":"2020-06-25T18:42:49.930+0800","caller":"collector/core.go:52","msg":"kafka-1 connect error"}
+{"level":"INFO","time":"2020-06-25T18:42:49.930+0800","caller":"collector/core.go:52","msg":"mysql-test5 connect error"}
+{"level":"INFO","time":"2020-06-25T18:42:49.934+0800","caller":"collector/core.go:52","msg":"warm-2 connect error"}
+{"level":"INFO","time":"2020-06-25T18:42:49.937+0800","caller":"collector/core.go:52","msg":"mysql-test6 connect error"}
+{"level":"INFO","time":"2020-06-25T18:42:49.954+0800","caller":"collector/core.go:52","msg":"mysql-test4 connect error"}
+{"level":"INFO","time":"2020-06-25T18:42:49.964+0800","caller":"collector/core.go:52","msg":"kubernetes-master-1 connect error"}
+{"level":"INFO","time":"2020-06-25T18:42:49.968+0800","caller":"collector/core.go:52","msg":"kubernetes-node-2 connect error"}
+{"level":"INFO","time":"2020-06-25T18:42:56.900+0800","caller":"collector/core.go:52","msg":"warm-1 connect error"}
+{"level":"INFO","time":"2020-06-25T18:42:56.948+0800","caller":"collector/core.go:63","msg":"mysql-test1 connect success"}
+{"level":"INFO","time":"2020-06-25T18:46:48.344+0800","caller":"collector/collector.go:26","msg":"Start ElasticSearch Monitor Slope"}
+{"level":"INFO","time":"2020-06-25T18:46:48.344+0800","caller":"collector/collector.go:32","msg":"Start Kafka Monitor Slope"}
+{"level":"INFO","time":"2020-06-25T18:46:48.344+0800","caller":"collector/collector.go:20","msg":"Start MySQL Monitor Slope"}
+{"level":"INFO","time":"2020-06-25T18:46:48.344+0800","caller":"collector/collector.go:38","msg":"Start Kubernetes Monitor Slope"}
+{"level":"INFO","time":"2020-06-25T18:46:48.356+0800","caller":"collector/core.go:52","msg":"warm-1 connect error"}
+{"level":"INFO","time":"2020-06-25T18:46:48.398+0800","caller":"collector/core.go:63","msg":"mysql-test1 connect success"}
+{"level":"INFO","time":"2020-06-25T18:46:51.361+0800","caller":"collector/core.go:52","msg":"mysql-test4 connect error"}
+{"level":"INFO","time":"2020-06-25T18:46:51.361+0800","caller":"collector/core.go:52","msg":"mysql-test2 connect error"}
+{"level":"INFO","time":"2020-06-25T18:46:51.410+0800","caller":"collector/core.go:52","msg":"kubernetes-node-1 connect error"}
+{"level":"INFO","time":"2020-06-25T18:46:51.415+0800","caller":"collector/core.go:52","msg":"warm-2 connect error"}
+{"level":"INFO","time":"2020-06-25T18:46:51.423+0800","caller":"collector/core.go:52","msg":"kubernetes-master-1 connect error"}
+{"level":"INFO","time":"2020-06-25T18:46:51.424+0800","caller":"collector/core.go:52","msg":"kafka-3 connect error"}
+{"level":"INFO","time":"2020-06-25T18:46:51.424+0800","caller":"collector/core.go:52","msg":"kubernetes-node-2 connect error"}
+{"level":"INFO","time":"2020-06-25T18:46:51.425+0800","caller":"collector/core.go:52","msg":"kafka-1 connect error"}
+{"level":"INFO","time":"2020-06-25T18:46:51.428+0800","caller":"collector/core.go:52","msg":"mysql-test3 connect error"}
+{"level":"INFO","time":"2020-06-25T18:46:51.429+0800","caller":"collector/core.go:52","msg":"kafka-2 connect error"}
+{"level":"INFO","time":"2020-06-25T18:46:51.433+0800","caller":"collector/core.go:52","msg":"mysql-test5 connect error"}
+{"level":"INFO","time":"2020-06-25T18:46:51.435+0800","caller":"collector/core.go:52","msg":"mysql-test6 connect error"}
+{"level":"INFO","time":"2020-06-25T18:46:51.436+0800","caller":"collector/core.go:52","msg":"warm-3 connect error"}
+{"level":"INFO","time":"2020-06-25T18:46:58.395+0800","caller":"collector/core.go:52","msg":"warm-1 connect error"}
+{"level":"INFO","time":"2020-06-25T18:46:58.446+0800","caller":"collector/core.go:63","msg":"mysql-test1 connect success"}
+{"level":"INFO","time":"2020-06-25T18:47:04.397+0800","caller":"collector/core.go:52","msg":"mysql-test2 connect error"}
+{"level":"INFO","time":"2020-06-25T18:47:04.398+0800","caller":"collector/core.go:52","msg":"mysql-test4 connect error"}
+{"level":"INFO","time":"2020-06-25T18:47:04.462+0800","caller":"collector/core.go:52","msg":"kubernetes-node-1 connect error"}
+{"level":"INFO","time":"2020-06-25T18:47:04.462+0800","caller":"collector/core.go:52","msg":"kubernetes-node-2 connect error"}
+{"level":"INFO","time":"2020-06-25T18:47:04.475+0800","caller":"collector/core.go:52","msg":"mysql-test5 connect error"}
+{"level":"INFO","time":"2020-06-25T18:47:04.477+0800","caller":"collector/core.go:52","msg":"kafka-1 connect error"}
+{"level":"INFO","time":"2020-06-25T18:47:04.480+0800","caller":"collector/core.go:52","msg":"kafka-3 connect error"}
+{"level":"INFO","time":"2020-06-25T18:47:04.482+0800","caller":"collector/core.go:52","msg":"kubernetes-master-1 connect error"}
+{"level":"INFO","time":"2020-06-25T18:47:04.484+0800","caller":"collector/core.go:52","msg":"mysql-test6 connect error"}
+{"level":"INFO","time":"2020-06-25T18:47:04.487+0800","caller":"collector/core.go:52","msg":"warm-3 connect error"}
+{"level":"INFO","time":"2020-06-25T18:47:04.489+0800","caller":"collector/core.go:52","msg":"warm-2 connect error"}
+{"level":"INFO","time":"2020-06-25T18:47:04.489+0800","caller":"collector/core.go:52","msg":"kafka-2 connect error"}
+{"level":"INFO","time":"2020-06-25T18:47:04.492+0800","caller":"collector/core.go:52","msg":"mysql-test3 connect error"}
+{"level":"INFO","time":"2020-06-25T18:47:08.409+0800","caller":"collector/core.go:52","msg":"warm-1 connect error"}
+{"level":"INFO","time":"2020-06-25T18:47:08.464+0800","caller":"collector/core.go:63","msg":"mysql-test1 connect success"}

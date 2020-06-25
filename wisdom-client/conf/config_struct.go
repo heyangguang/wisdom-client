@@ -6,6 +6,8 @@ type YamlSetting struct {
 	Server                   Server
 	MySQLApplication         MySQLApplication
 	ElasticSearchApplication ElasticSearchApplication
+	KafkaApplication         KafkaApplication
+	KubernetesApplication    KubernetesApplication
 }
 
 type Server struct {
@@ -20,6 +22,18 @@ type MySQLApplication struct {
 }
 
 type ElasticSearchApplication struct {
+	LoopTime time.Duration
+	Timeout  time.Duration
+	HostPool []string
+}
+
+type KafkaApplication struct {
+	LoopTime time.Duration
+	Timeout  time.Duration
+	HostPool []string
+}
+
+type KubernetesApplication struct {
 	LoopTime time.Duration
 	Timeout  time.Duration
 	HostPool []string

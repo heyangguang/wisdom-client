@@ -9,12 +9,12 @@ import (
 )
 
 type ServiceStatus struct {
-	Ip     string `json:"ip"`
-	Port   string `json:"port"`
-	Name   string `json:"name"`
-	Status bool   `json:"status"`
+	Ip     string    `json:"ip"`
+	Port   string    `json:"port"`
+	Name   string    `json:"name"`
+	Status bool      `json:"status"`
 	Time   time.Time `json:"time"`
-	Tag    string `json:"tag"`
+	Tag    string    `json:"tag"`
 }
 
 func NewServiceStatus(ip, port, name string) ServiceStatus {
@@ -48,7 +48,8 @@ func (s *ServiceStatus) tcpGather(timeout time.Duration, tag string) {
 			logger.Error("request http error, err: " + err.Error())
 			return
 		}
-		logger.Info(fmt.Sprintf("%v connect error, err: %s", s, err.Error()))
+		logger.Debug(fmt.Sprintf("%v connect error, err: %s", s, err.Error()))
+		logger.Info(fmt.Sprintf("%s connect error", s.Name))
 	} else {
 		//time.Sleep(timeout*time.Second)
 		s.Time = time.Now()
@@ -58,6 +59,7 @@ func (s *ServiceStatus) tcpGather(timeout time.Duration, tag string) {
 			logger.Error("request http error, err: " + err.Error())
 			return
 		}
-		logger.Info(fmt.Sprintf("%v connect success", s))
+		logger.Debug(fmt.Sprintf("%v connect success", s))
+		logger.Info(fmt.Sprintf("%s connect success", s.Name))
 	}
 }

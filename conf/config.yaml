@@ -6,7 +6,7 @@ MySQLApplication:
   LoopTime: 10
   Timeout: 3
   HostPool:
-    - "127.0.0.1:3306:mysql-test1"
+    - "localhost:3306:mysql-test1"
     - "127.0.0.2:3306:mysql-test2"
     - "127.0.0.3:3306:mysql-test3"
     - "127.0.0.4:3306:mysql-test4"
@@ -20,3 +20,19 @@ ElasticSearchApplication:
     - "192.168.31.2:9200:warm-1"
     - "192.168.31.3:9200:warm-2"
     - "192.168.31.4:9200:warm-3"
+
+KafkaApplication:
+  LoopTime: 10
+  Timeout: 3
+  HostPool:
+    - "192.168.32.21:9092:kafka-1"
+    - "192.168.32.31:9092:kafka-2"
+    - "192.168.32.41:9092:kafka-3"
+
+KubernetesApplication:
+  LoopTime: 10
+  Timeout: 3
+  HostPool:
+    - "192.168.33.22:9092:kubernetes-master-1"
+    - "192.168.33.32:9092:kubernetes-node-1"
+    - "192.168.33.42:9092:kubernetes-node-2"
