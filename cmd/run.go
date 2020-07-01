@@ -18,7 +18,6 @@ package cmd
 import (
 	"fmt"
 	"github.com/spf13/cobra"
-	"net/http"
 	"wisdom-client/collector"
 	"wisdom-client/wisdom-client/conf"
 	"wisdom-client/wisdom-client/logger"
@@ -52,7 +51,7 @@ func init() {
 func runStart(configFile, logPath string, port int) {
 	// 初始化日志模块
 	//logPath := wisdomClient.BaseDir() + "/logs/wisdom-client.log"
-	err := logger.InitLogger(logPath, 1, 7, 10, "INFO")
+	err := logger.InitLogger(logPath, 1, 7, 10, "DEBUG")
 	if err != nil {
 		fmt.Println(err.Error())
 	}
@@ -66,5 +65,6 @@ func runStart(configFile, logPath string, port int) {
 
 	// 启动服务
 	fmt.Printf("WisdomClient ListenAndServer %d...\n", port)
-	_ = http.ListenAndServe(fmt.Sprintf(":%d", port), nil)
+	r := collector.InitHttpListen()
+	_ = r.Run(fmt.Sprintf(":%d", port))
 }
