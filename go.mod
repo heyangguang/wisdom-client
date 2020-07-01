@@ -4,7 +4,6 @@ go 1.12
 
 require (
 	github.com/fsnotify/fsnotify v1.4.9 // indirect
-	github.com/mitchellh/go-homedir v1.1.0
 	github.com/mitchellh/mapstructure v1.3.2 // indirect
 	github.com/natefinch/lumberjack v2.0.0+incompatible
 	github.com/pelletier/go-toml v1.8.0 // indirect

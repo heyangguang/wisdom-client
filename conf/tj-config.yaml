@@ -1,0 +1,103 @@
+Server:
+  Host: "http://wisdom-portal.ibm.com/api/v1/monitor/tcp"
+  Secret: "AeZmOUaO-oVlRmeGtHK539xXt4nfh6DSCnVArRq-41M"
+
+MySQLApplication:
+  LoopTime: 10
+  Timeout: 3
+  HostPool:
+    - "mysql-app-0.mysql-app.grafana.svc.cluster.local:3306:mysql-app-0"
+    - "mysql-app-1.mysql-app.grafana.svc.cluster.local:3306:mysql-app-1"
+    - "mysql-app-2.mysql-app.grafana.svc.cluster.local:3306:mysql-app-2"
+
+ElasticSearchApplication:
+  LoopTime: 10
+  Timeout: 3
+  HostPool:
+    - "elasticsearch-es-client-0.elasticsearch-es-client.prod.svc.cluster.local:9200:client-0"
+    - "elasticsearch-es-client-1.elasticsearch-es-client.prod.svc.cluster.local:9200:client-1"
+    - "elasticsearch-es-client-2.elasticsearch-es-client.prod.svc.cluster.local:9200:client-2"
+    - "elasticsearch-es-client-3.elasticsearch-es-client.prod.svc.cluster.local:9200:client-3"
+    - "elasticsearch-es-client-4.elasticsearch-es-client.prod.svc.cluster.local:9200:client-4"
+    - "elasticsearch-es-client-5.elasticsearch-es-client.prod.svc.cluster.local:9200:client-5"
+    - "elasticsearch-es-hot1-0.elasticsearch-es-hot1.prod.svc.cluster.local:9200:hot1-0"
+    - "elasticsearch-es-hot1-1.elasticsearch-es-hot1.prod.svc.cluster.local:9200:hot1-1"
+    - "elasticsearch-es-hot1-2.elasticsearch-es-hot1.prod.svc.cluster.local:9200:hot1-2"
+    - "elasticsearch-es-hot1-3.elasticsearch-es-hot1.prod.svc.cluster.local:9200:hot1-3"
+    - "elasticsearch-es-hot1-4.elasticsearch-es-hot1.prod.svc.cluster.local:9200:hot1-4"
+    - "elasticsearch-es-hot1-5.elasticsearch-es-hot1.prod.svc.cluster.local:9200:hot1-5"
+    - "elasticsearch-es-hot1-6.elasticsearch-es-hot1.prod.svc.cluster.local:9200:hot1-6"
+    - "elasticsearch-es-hot1-7.elasticsearch-es-hot1.prod.svc.cluster.local:9200:hot1-7"
+    - "elasticsearch-es-hot1-8.elasticsearch-es-hot1.prod.svc.cluster.local:9200:hot1-8"
+    - "elasticsearch-es-hot1-9.elasticsearch-es-hot1.prod.svc.cluster.local:9200:hot1-9"
+    - "elasticsearch-es-hot2-0.elasticsearch-es-hot2.prod.svc.cluster.local:9200:hot2-0"
+    - "elasticsearch-es-hot2-1.elasticsearch-es-hot2.prod.svc.cluster.local:9200:hot2-1"
+    - "elasticsearch-es-hot2-2.elasticsearch-es-hot2.prod.svc.cluster.local:9200:hot2-2"
+    - "elasticsearch-es-hot2-3.elasticsearch-es-hot2.prod.svc.cluster.local:9200:hot2-3"
+    - "elasticsearch-es-hot2-4.elasticsearch-es-hot2.prod.svc.cluster.local:9200:hot2-4"
+    - "elasticsearch-es-hot2-5.elasticsearch-es-hot2.prod.svc.cluster.local:9200:hot2-5"
+    - "elasticsearch-es-hot2-6.elasticsearch-es-hot2.prod.svc.cluster.local:9200:hot2-6"
+    - "elasticsearch-es-hot2-7.elasticsearch-es-hot2.prod.svc.cluster.local:9200:hot2-7"
+    - "elasticsearch-es-hot2-8.elasticsearch-es-hot2.prod.svc.cluster.local:9200:hot2-8"
+    - "elasticsearch-es-hot2-9.elasticsearch-es-hot2.prod.svc.cluster.local:9200:hot2-9"
+    - "elasticsearch-es-master-0.elasticsearch-es-master.prod.svc.cluster.local:9200:master-0"
+    - "elasticsearch-es-master-1.elasticsearch-es-master.prod.svc.cluster.local:9200:master-1"
+    - "elasticsearch-es-master-2.elasticsearch-es-master.prod.svc.cluster.local:9200:master-2"
+    - "elasticsearch-es-master-3.elasticsearch-es-master.prod.svc.cluster.local:9200:master-3"
+    - "elasticsearch-es-master-4.elasticsearch-es-master.prod.svc.cluster.local:9200:master-4"
+    - "elasticsearch-es-master-5.elasticsearch-es-master.prod.svc.cluster.local:9200:master-5"
+    - "elasticsearch-es-master-6.elasticsearch-es-master.prod.svc.cluster.local:9200:master-6"
+    - "elasticsearch-es-warm1-0.elasticsearch-es-warm1.prod.svc.cluster.local:9200:warm1-0"
+    - "elasticsearch-es-warm1-1.elasticsearch-es-warm1.prod.svc.cluster.local:9200:warm1-1"
+    - "elasticsearch-es-warm1-2.elasticsearch-es-warm1.prod.svc.cluster.local:9200:warm1-2"
+    - "elasticsearch-es-warm1-3.elasticsearch-es-warm1.prod.svc.cluster.local:9200:warm1-3"
+    - "elasticsearch-es-warm1-4.elasticsearch-es-warm1.prod.svc.cluster.local:9200:warm1-4"
+    - "elasticsearch-es-warm1-5.elasticsearch-es-warm1.prod.svc.cluster.local:9200:warm1-5"
+    - "elasticsearch-es-warm1-6.elasticsearch-es-warm1.prod.svc.cluster.local:9200:warm1-6"
+    - "elasticsearch-es-warm1-7.elasticsearch-es-warm1.prod.svc.cluster.local:9200:warm1-7"
+    - "elasticsearch-es-warm1-8.elasticsearch-es-warm1.prod.svc.cluster.local:9200:warm1-8"
+    - "elasticsearch-es-warm1-9.elasticsearch-es-warm1.prod.svc.cluster.local:9200:warm1-9"
+    - "elasticsearch-es-warm1-10.elasticsearch-es-warm1.prod.svc.cluster.local:9200:warm1-10"
+    - "elasticsearch-es-warm1-11.elasticsearch-es-warm1.prod.svc.cluster.local:9200:warm1-11"
+    - "elasticsearch-es-warm2-0.elasticsearch-es-warm2.prod.svc.cluster.local:9200:warm2-0"
+    - "elasticsearch-es-warm2-1.elasticsearch-es-warm2.prod.svc.cluster.local:9200:warm2-1"
+    - "elasticsearch-es-warm2-2.elasticsearch-es-warm2.prod.svc.cluster.local:9200:warm2-2"
+    - "elasticsearch-es-warm2-3.elasticsearch-es-warm2.prod.svc.cluster.local:9200:warm2-3"
+    - "elasticsearch-es-warm2-4.elasticsearch-es-warm2.prod.svc.cluster.local:9200:warm2-4"
+    - "elasticsearch-es-warm2-5.elasticsearch-es-warm2.prod.svc.cluster.local:9200:warm2-5"
+    - "elasticsearch-es-warm2-6.elasticsearch-es-warm2.prod.svc.cluster.local:9200:warm2-6"
+    - "elasticsearch-es-warm2-7.elasticsearch-es-warm2.prod.svc.cluster.local:9200:warm2-7"
+    - "elasticsearch-es-warm2-8.elasticsearch-es-warm2.prod.svc.cluster.local:9200:warm2-8"
+    - "elasticsearch-es-warm2-9.elasticsearch-es-warm2.prod.svc.cluster.local:9200:warm2-9"
+    - "elasticsearch-es-warm2-10.elasticsearch-es-warm2.prod.svc.cluster.local:9200:warm2-10"
+    - "elasticsearch-es-warm2-11.elasticsearch-es-warm2.prod.svc.cluster.local:9200:warm2-11"
+    - "elasticsearch-es-warm3-0.elasticsearch-es-warm3.prod.svc.cluster.local:9200:warm3-0"
+    - "elasticsearch-es-warm3-1.elasticsearch-es-warm3.prod.svc.cluster.local:9200:warm3-1"
+    - "elasticsearch-es-warm3-2.elasticsearch-es-warm3.prod.svc.cluster.local:9200:warm3-2"
+    - "elasticsearch-es-warm3-3.elasticsearch-es-warm3.prod.svc.cluster.local:9200:warm3-3"
+    - "elasticsearch-es-warm3-4.elasticsearch-es-warm3.prod.svc.cluster.local:9200:warm3-4"
+    - "elasticsearch-es-warm3-5.elasticsearch-es-warm3.prod.svc.cluster.local:9200:warm3-5"
+    - "elasticsearch-es-warm3-6.elasticsearch-es-warm3.prod.svc.cluster.local:9200:warm3-6"
+    - "elasticsearch-es-warm3-7.elasticsearch-es-warm3.prod.svc.cluster.local:9200:warm3-7"
+    - "elasticsearch-es-warm3-8.elasticsearch-es-warm3.prod.svc.cluster.local:9200:warm3-8"
+    - "elasticsearch-es-warm3-9.elasticsearch-es-warm3.prod.svc.cluster.local:9200:warm3-9"
+    - "elasticsearch-es-warm3-10.elasticsearch-es-warm3.prod.svc.cluster.local:9200:warm3-10"
+    - "elasticsearch-es-warm3-11.elasticsearch-es-warm3.prod.svc.cluster.local:9200:warm3-11"
+
+KafkaApplication:
+  LoopTime: 10
+  Timeout: 3
+  HostPool:
+    - "172.16.140.3:9092:kafka-1"
+    - "172.16.140.4:9092:kafka-2"
+    - "172.16.140.5:9092:kafka-3"
+    - "172.16.140.12:9092:kafka-4"
+    - "172.16.140.13:9092:kafka-5"
+
+KubernetesApplication:
+  LoopTime: 10
+  Timeout: 3
+  HostPool:
+    - "172.16.140.22:6443:kubernetes-master-1"
+    - "172.16.140.23:6443:kubernetes-master-2"
+    - "172.16.140.24:6443:kubernetes-master-3"
