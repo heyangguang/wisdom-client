@@ -8,7 +8,7 @@ test:
 build:
 	go build \
 	  -race \
-	  -o app
+	  -o wisdomc-ctl
 
 .PHONY: help
 ## help: prints this help message

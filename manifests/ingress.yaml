@@ -1,0 +1,14 @@
+apiVersion: traefik.containo.us/v1alpha1
+kind: IngressRoute
+metadata:
+  name: wisdom-client
+  namespace: kube-wisdom
+spec:
+  entryPoints:
+    - web
+  routes:
+    - kind: Rule
+      match: Host(`wisdom-client.ibm.com`)
+      services:
+        - name: wisdom-client
+          port: 9090

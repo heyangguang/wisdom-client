@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: wisdom-client
+  namespace: kube-wisdom
+  labels:
+    name: wisdom-client
+spec:
+  ports:
+    - name: http
+      port: 9090
+      targetPort: http
+  type: NodePort
+  selector:
+    app: wisdom-client
