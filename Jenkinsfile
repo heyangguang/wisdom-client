@@ -6,7 +6,6 @@ podTemplate(label: label, containers: [
   containerTemplate(name: 'kubectl', image: '172.16.140.21/heyang/kubectl:v1.15.3', command: 'cat', ttyEnabled: true),
   containerTemplate(name: 'jnlp', image: '172.16.140.21/heyang/jnlp-slave:4.0.1-1', alwaysPullImage: false, privileged: true, args: '${computer.jnlpmac} ${computer.name}')
 ], serviceAccount: 'jenkins', volumes: [
-  hostPathVolume(mountPath: '/home/jenkins/.kube', hostPath: '/root/.kube'),
   hostPathVolume(mountPath: '/var/run/docker.sock', hostPath: '/var/run/docker.sock')
 ]) {
   node(label) {
@@ -97,16 +96,19 @@ podTemplate(label: label, containers: [
       sh "sed -i 's/<BRANCH_NAME>/${ciEnv}/g' manifests/deployment.yaml"
     }
     stage('推送Kubernetes') {
-      container('kubectl') {
-       echo "Part5.部署应用到 K8S"
-       sh '''
-           kubectl config use-context tj-k8s
-           kubectl apply -f manifests/deployment.yaml
-           kubectl apply -f manifests/service.yaml
-           kubectl apply -f manifests/ingress.yaml
-           kubectl rollout status -f manifests/deployment.yaml
-       '''
-       echo "6.部署成功"
+      withCredentials([file(credentialsId: 'kubeconfig', variable: 'KUBECONFIG')]) {
+        container('kubectl') {
+         sh "mkdir -p ~/.kube && cp ${KUBECONFIG} ~/.kube/config"
+         echo "Part5.部署应用到 K8S"
+         sh '''
+             kubectl config use-context tj-k8s
+             kubectl apply -f manifests/deployment.yaml
+             kubectl apply -f manifests/service.yaml
+             kubectl apply -f manifests/ingress.yaml
+             kubectl rollout status -f manifests/deployment.yaml
+         '''
+         echo "6.部署成功"
+        }
       }
     }
   }
