@@ -32,9 +32,9 @@ podTemplate(label: label, containers: [
             sh '''
                 export GO111MODULE=off
                 go env
-                cp -Ra ../wisdomPortal/ /go/src/
-                cp -Ra ../wisdomPortal/vendor/* /go/src/
-                mv /go/src/wisdomPortal/ /go/src/wisdom-client
+                cp -Ra ../wisdomClient/ /go/src/
+                cp -Ra ../wisdomClient/vendor/* /go/src/
+                mv /go/src/wisdomClient/ /go/src/wisdom-client
                 ls /go/src
                 make build
             '''
@@ -99,10 +99,13 @@ podTemplate(label: label, containers: [
     stage('推送Kubernetes') {
       container('kubectl') {
        echo "Part5.部署应用到 K8S"
-       sh "kubectl apply -f manifests/deployment.yaml"
-       sh "kubectl apply -f manifests/service.yaml"
-       sh "kubectl apply -f manifests/ingress.yaml"
-       sh "kubectl rollout status -f manifests/deployment.yaml"
+       sh '''
+           kubectl config use-context tj-k8s
+           kubectl apply -f manifests/deployment.yaml
+           kubectl apply -f manifests/service.yaml
+           kubectl apply -f manifests/ingress.yaml
+           kubectl rollout status -f manifests/deployment.yaml
+       '''
        echo "6.部署成功"
       }
     }
